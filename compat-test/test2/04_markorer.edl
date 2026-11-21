@@ -1,0 +1,26 @@
+TITLE: ReelTest test2 markorer
+FCM: NON-DROP FRAME
+
+001  001      V     C        00:00:01:15 00:00:01:16 00:00:01:15 00:00:01:16  
+ |C:ResolveColorBlue |M:E T1  Baslinje (ingen zoom) |D:1
+
+002  001      V     C        00:00:07:15 00:00:07:16 00:00:07:15 00:00:07:16  
+ |C:ResolveColorBlue |M:E T2  Statisk zoom mot röda rutan |D:1
+
+003  001      V     C        00:00:13:15 00:00:13:16 00:00:13:15 00:00:13:16  
+ |C:ResolveColorBlue |M:E T3a Animerad zoom (källtid) |D:1
+
+004  001      V     C        00:00:19:15 00:00:19:16 00:00:19:15 00:00:19:16  
+ |C:ResolveColorBlue |M:E T3b Animerad zoom (från noll) |D:1
+
+005  001      V     C        00:00:25:15 00:00:25:16 00:00:25:15 00:00:25:16  
+ |C:ResolveColorBlue |M:E T4  Övergång + whoosh |D:1
+
+006  001      V     C        00:00:31:15 00:00:31:16 00:00:31:15 00:00:31:16  
+ |C:ResolveColorBlue |M:E T5  Rubriker / titlar |D:1
+
+007  001      V     C        00:00:37:15 00:00:37:16 00:00:37:15 00:00:37:16  
+ |C:ResolveColorBlue |M:E T6  Undertexter som textklipp |D:1
+
+008  001      V     C        00:00:43:15 00:00:43:16 00:00:43:15 00:00:43:16  
+ |C:ResolveColorBlue |M:E T7  SFX + musik som sänks under tal |D:1

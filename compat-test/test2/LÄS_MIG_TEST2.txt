@@ -1,0 +1,43 @@
+TEST 2: UNDERTEXTER I SYNK, TEXTSTORLEK, LJUDSPÅR, MARKÖRER
+===========================================================
+
+FÖRBEREDELSE
+  Dubbelklicka på zip-filen och dra mappen "test2" in i  C:\Users\aront\ReelTest
+  Den ska ligga här:  C:\Users\aront\ReelTest\test2\01_test2.fcpxml
+
+--------------------------------------------------------------------
+STEG 1: Huvudtestet
+  File -> Import -> Timeline... -> test2\01_test2.fcpxml
+  (bocka i "Use sizing information", precis som förra gången)
+  En ny tidslinje "ReelTest test2" öppnas.
+
+  Spela upp den och kolla:
+  a) UNDERTEXTER (det viktigaste)
+     0:00-0:24  vanliga rader, 1-3 ord.
+     0:24-0:48  "karaoke": ordet som sägs just nu är gult.
+     -> Kommer texten SAMTIDIGT som rösten? Eller för tidigt/sent, och hur mycket?
+  b) TEXTSTORLEK  0:00-0:12, fyra orange rubriker: RUBRIK 50 / 65 / 80 / 95
+     -> Vilken storlek gillar du för rubriker? Är undertexternas storlek (65) bra?
+  c) GRÖNT KORS  0:12-0:18 ska nu synas mitt i bild.
+  d) MARKÖRER  syns det några markörer på klippen eller på tidslinjen?
+  e) LJUDSPÅR  ta en bild på hela tidslinjen (Shift + Z).
+
+STEG 2: Undertexter som SRT
+  Stå kvar i tidslinjen "ReelTest test2".
+  File -> Import -> Subtitle... -> test2\03_undertexter.srt
+  Dra den från Media Pool till tidslinjens början (00:00:00:00).
+  -> Kommer texten samtidigt som rösten nu?
+  (Den första raden är en punkt "." som bara syns 1 bildruta. Den är till för att
+   tiderna ska hamna rätt. Den går att radera efteråt.)
+
+STEG 3: Markörer från fil
+  Högerklicka på tidslinjen "ReelTest test2" i Media Pool ->
+  Timelines -> Import -> Timeline Markers from EDL... -> test2\04_markorer.edl
+  -> Dyker det upp blå markörer på tidslinjen?
+
+STEG 4: Ljudspår, variant 2
+  File -> Import -> Timeline... -> test2\02_ljudspar.fcpxml
+  -> Ta en bild på hela tidslinjen (Shift + Z). Ligger rösten på A1, SFX på A2 och musik på A3?
+
+Skicka bilder: tidslinjen från steg 1 och steg 4, viewern i 0:05 och 0:30,
+plus viewern när de fyra rubrikerna syns. Skriv kort hur synken känns.

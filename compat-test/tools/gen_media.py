@@ -68,11 +68,13 @@ def main(kit):
          "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-crf", "24", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "160k", "-ar", "48000", os.path.join(m, "testklipp.mp4")])
 
-    # 3. transparent crosshair overlay (tests PNG overlays on V2)
-    run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c=black@0.0:s={W}x{H},format=rgba",
-         "-vf", f"drawbox=x={W//2-2}:y={H//2-140}:w=5:h=280:c=0x00FFAA@1:t=fill,"
-                f"drawbox=x={W//2-140}:y={H//2-2}:w=280:h=5:c=0x00FFAA@1:t=fill",
-         "-frames:v", "1", os.path.join(m, "sikte.png")])
+    # 3. transparent crosshair overlay (tests PNG overlays). Drawn with PIL: ffmpeg drawbox
+    #    leaves alpha at 0 on rgba input, which made the first version invisible.
+    from PIL import Image, ImageDraw
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rectangle([W//2-2, H//2-140, W//2+2, H//2+140], fill=(0, 255, 170, 255))
+    d.rectangle([W//2-140, H//2-2, W//2+140, H//2+2], fill=(0, 255, 170, 255))
+    im.save(os.path.join(m, "sikte.png"))
 
     # 4. synthetic test sounds
     run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anoisesrc=color=pink:d=0.8:a=0.6",
