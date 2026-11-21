@@ -53,7 +53,7 @@ råfil ──► analys ──► edit.json ──► exporter ──► .fcpxml
 | 3 | Lärande: jämför Arons färdiga tidslinje med Claudes förslag och uppdatera stilguiden | Ej påbörjad |
 
 ## Kompatibilitetstest
-Se [`compat-test/LÄS_MIG.txt`](compat-test/LÄS_MIG.txt). Kopiera mappen till `C:\ReelTest\`
+Se [`compat-test/LÄS_MIG.txt`](compat-test/LÄS_MIG.txt). Lägg mappen i `C:\Users\aront\ReelTest\`
 och importera `01_huvudtest.fcpxml` (bocka i *Use sizing information*).
 Det testar statisk och animerad zoom, PNG-overlay, övergång, rubriker, undertexter
 (tre sätt), SFX, musik-ducking och markörer.

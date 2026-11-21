@@ -3,7 +3,7 @@
 <fcpxml version="1.9">
 <resources>
 <format id="fmt" name="FFVideoFormat1080x1920p30" frameDuration="1/30s" width="1080" height="1920"/>
-<asset id="cam" name="testklipp.mp4" start="0s" duration="1440/30s" hasVideo="1" format="fmt" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/ReelTest/media/testklipp.mp4"/></asset>
+<asset id="cam" name="testklipp.mp4" start="0s" duration="1440/30s" hasVideo="1" format="fmt" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/testklipp.mp4"/></asset>
 
 </resources>
 <library>

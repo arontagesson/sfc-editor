@@ -5,15 +5,17 @@ DaVinci Resolve (gratis). Ljuden i media/ är syntetiska testtoner, inte riktiga
 Rösten är en engelsk talsyntes, bara för att kunna kolla undertexternas synk.
 
 1. PACKA UPP
-   Mappen ska ligga exakt här:  C:\ReelTest\
-   (så att filen C:\ReelTest\media\testklipp.mp4 finns)
+   Spara zip-filen i C:\Users\aront (tryck "Yes" om Windows frågar).
+   Högerklicka på zip-filen -> Extrahera alla... -> ändra sökvägen till  C:\Users\aront
+   Mappen ska då ligga exakt här:  C:\Users\aront\ReelTest\
+   (så att filen C:\Users\aront\ReelTest\media\testklipp.mp4 finns, INTE ReelTest\ReelTest\...)
    Ligger den någon annanstans: högerklicka på röda klipp i Resolve -> Relink.
 
 2. NYTT PROJEKT I RESOLVE
    Project Manager -> New Project -> "ReelTest".
 
 3. IMPORTERA HUVUDTESTET
-   File -> Import -> Timeline... -> välj C:\ReelTest\01_huvudtest.fcpxml
+   File -> Import -> Timeline... -> välj C:\Users\aront\ReelTest\01_huvudtest.fcpxml
    I dialogen:
      [x] Automatically import source clips into media pool
      [x] Use sizing information          <- VIKTIGT (annars kommer inga zoomar med)

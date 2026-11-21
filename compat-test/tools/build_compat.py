@@ -2,7 +2,7 @@
 """Build the Resolve compatibility-test timelines from media/info.json.
 
 usage: python build_compat.py <kit_dir> [ROOT]
-ROOT = where the kit folder lives on the PC (default C:/ReelTest). Writes:
+ROOT = where the kit folder lives on the PC (default C:/Users/aront/ReelTest). Writes:
   01_huvudtest.fcpxml   zooms (static + two keyframe variants), PNG overlay, transition,
                         titles, captions-as-title-clips, SFX, music ducking, markers
   02_undertexter.fcpxml FCPXML <caption> elements (subtitle track) on the plain source clip
@@ -12,7 +12,7 @@ import json, os, re, sys, urllib.parse
 from xml.sax.saxutils import escape, quoteattr
 
 kit = sys.argv[1]
-ROOT = (sys.argv[2] if len(sys.argv) > 2 else "C:/ReelTest").replace("\\", "/").rstrip("/")
+ROOT = (sys.argv[2] if len(sys.argv) > 2 else "C:/Users/aront/ReelTest").replace("\\", "/").rstrip("/")
 info = json.load(open(os.path.join(kit, "media", "info.json"), encoding="utf-8"))
 FPS, W, H, SEC = info["fps"], info["width"], info["height"], info["section_sec"]
 D = info["durations"]

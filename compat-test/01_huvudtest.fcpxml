@@ -3,11 +3,11 @@
 <fcpxml version="1.9">
 <resources>
 <format id="fmt" name="FFVideoFormat1080x1920p30" frameDuration="1/30s" width="1080" height="1920"/>
-<asset id="cam" name="testklipp.mp4" start="0s" duration="1440/30s" hasVideo="1" format="fmt" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/ReelTest/media/testklipp.mp4"/></asset>
-<asset id="sikte" name="sikte.png" start="0s" duration="0s" hasVideo="1" format="fmt"><media-rep kind="original-media" src="file:///C:/ReelTest/media/sikte.png"/></asset>
-<asset id="whoosh" name="test_whoosh.wav" start="0s" duration="24/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/ReelTest/media/test_whoosh.wav"/></asset>
-<asset id="pling" name="test_pling.wav" start="0s" duration="12/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/ReelTest/media/test_pling.wav"/></asset>
-<asset id="musik" name="test_musik.wav" start="0s" duration="300/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/ReelTest/media/test_musik.wav"/></asset>
+<asset id="cam" name="testklipp.mp4" start="0s" duration="1440/30s" hasVideo="1" format="fmt" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/testklipp.mp4"/></asset>
+<asset id="sikte" name="sikte.png" start="0s" duration="0s" hasVideo="1" format="fmt"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/sikte.png"/></asset>
+<asset id="whoosh" name="test_whoosh.wav" start="0s" duration="24/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/test_whoosh.wav"/></asset>
+<asset id="pling" name="test_pling.wav" start="0s" duration="12/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/test_pling.wav"/></asset>
+<asset id="musik" name="test_musik.wav" start="0s" duration="300/30s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///C:/Users/aront/ReelTest/media/test_musik.wav"/></asset>
 <effect id="basictitle" name="Basic Title" uid=".../Titles.localized/Bumper:Opener.localized/Basic Title.localized/Basic Title.moti"/>
 <effect id="xdiss" name="Cross Dissolve" uid="FxPlug:4731E73A-8DAC-4113-9A30-AE85B1761265"/>
 </resources>
