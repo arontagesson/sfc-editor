@@ -1,0 +1,3 @@
+*.srt -text
+*.txt -text
+*.fcpxml text eol=lf

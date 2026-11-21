@@ -1,0 +1,63 @@
+RESOLVE-KOMPATIBILITETSTEST  (ca 20–30 min)
+===========================================
+Syfte: se exakt vad som överlever när en tidslinje från Claude importeras i
+DaVinci Resolve (gratis). Ljuden i media/ är syntetiska testtoner, inte riktiga SFX.
+Rösten är en engelsk talsyntes, bara för att kunna kolla undertexternas synk.
+
+1. PACKA UPP
+   Mappen ska ligga exakt här:  C:\ReelTest\
+   (så att filen C:\ReelTest\media\testklipp.mp4 finns)
+   Ligger den någon annanstans: högerklicka på röda klipp i Resolve -> Relink.
+
+2. NYTT PROJEKT I RESOLVE
+   Project Manager -> New Project -> "ReelTest".
+
+3. IMPORTERA HUVUDTESTET
+   File -> Import -> Timeline... -> välj C:\ReelTest\01_huvudtest.fcpxml
+   I dialogen:
+     [x] Automatically import source clips into media pool
+     [x] Use sizing information          <- VIKTIGT (annars kommer inga zoomar med)
+     [x] Automatically set project settings  (filen säger 1080x1920, 30 fps)
+   Kolla efteråt: File -> Project Settings -> Timeline resolution ska vara 1080 x 1920.
+
+4. IMPORTERA UNDERTEXTER, TVÅ SÄTT
+   a) File -> Import -> Timeline... -> 02_undertexter.fcpxml  (blir en egen tidslinje)
+   b) Öppna tidslinjen "ReelTest 01 huvudtest".
+      File -> Import -> Subtitle... -> 03_undertexter.srt, och dra den sedan från
+      Media Pool till tidslinjens början (den hamnar på ett undertextspår, ST1).
+
+5. KOLLA OCH SVARA (skriv bara t.ex. "T2 ja, T3a nej ..." i chatten)
+   Skärmdumpar på tidslinjen och på Inspector är guld värda.
+
+   T1  Baslinje (0:00)
+       - Fyller bilden rutan? Hörs rösten? Finns en markör "T1" på klippet?
+   T2  Statisk zoom (0:05)
+       - Är bilden inzoomad (~25 %) och hamnar RÖDA RUTAN på det GRÖNA KORSET i mitten?
+       - Syns det gröna korset (en PNG ovanpå) under T2–T3b?
+       - Hörs ett "pling" precis vid klippet?
+   T3a Animerad zoom, metod A (0:10)
+       - Zoomar bilden MJUKT in ca 1 s in i klippet och slutar med röda rutan i mitten?
+   T3b Animerad zoom, metod B (0:15)
+       - Samma sak? Eller står den still / är redan inzoomad från början?
+       (Den metod som fungerar är den jag använder framöver.)
+   T4  Övergång (0:20)
+       - Tonar T3b mjukt över i T4? Hörs ett "whoosh" över klippet?
+   T5  Rubriker (0:25)
+       - Orange "RUBRIK ÖVERST" i Arial Black högt upp i bild?
+       - "liten etikett" nere till vänster?
+       - Klicka på dem: går texten att ändra i Inspector? Vad heter klipptypen
+         (Text, Text+, Fusion Title ...)? Stämmer färg, storlek och svart kant?
+   T6  Undertexter som textklipp (0:30)
+       - Vita versaler med svart kant, i nedre tredjedelen?
+       - Är ordet "SUBTITLES" gult och resten vitt?
+       - Ligger de i synk med rösten?
+   T7  Ljud (0:35)
+       - Hörs "pling" vid start? Hörs musiken, och SÄNKS den när rösten pratar
+         och höjs efteråt? (Syns volympunkter/keyframes på musikklippet?)
+   02  FCPXML-undertexter
+       - Fick tidslinjen ett undertextspår med 21 rader? I synk med rösten?
+   03  SRT-undertexter
+       - Gick den att lägga på tidslinje 01? I synk med rösten?
+       - Går det att ändra stil (typsnitt, storlek, kant) för hela spåret i Inspector?
+
+Om en import misslyckas helt: skriv vilket felmeddelande Resolve visar.

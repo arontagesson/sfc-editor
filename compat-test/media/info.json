@@ -1,0 +1,78 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "section_sec": 6.0,
+  "sections": [
+    {
+      "label": "T1  Baslinje (ingen zoom)",
+      "voice": {
+        "start": 0.8,
+        "dur": 2.883,
+        "text": "Test one. Baseline. No zoom."
+      }
+    },
+    {
+      "label": "T2  Statisk zoom mot röda rutan",
+      "voice": {
+        "start": 6.8,
+        "dur": 3.15,
+        "text": "Test two. Static zoom on the red box."
+      }
+    },
+    {
+      "label": "T3a Animerad zoom (källtid)",
+      "voice": {
+        "start": 12.8,
+        "dur": 2.522,
+        "text": "Test three A. Animated zoom in."
+      }
+    },
+    {
+      "label": "T3b Animerad zoom (från noll)",
+      "voice": {
+        "start": 18.8,
+        "dur": 3.459,
+        "text": "Test three B. Animated zoom, second method."
+      }
+    },
+    {
+      "label": "T4  Övergång + whoosh",
+      "voice": {
+        "start": 24.8,
+        "dur": 2.877,
+        "text": "Test four. Cross dissolve transition."
+      }
+    },
+    {
+      "label": "T5  Rubriker / titlar",
+      "voice": {
+        "start": 30.8,
+        "dur": 2.814,
+        "text": "Test five. Titles and headlines."
+      }
+    },
+    {
+      "label": "T6  Undertexter som textklipp",
+      "voice": {
+        "start": 36.8,
+        "dur": 3.596,
+        "text": "Test six. Subtitles as text clips."
+      }
+    },
+    {
+      "label": "T7  SFX + musik som sänks under tal",
+      "voice": {
+        "start": 44.0,
+        "dur": 3.294,
+        "text": "Test seven. Sound effects and music ducking."
+      }
+    }
+  ],
+  "durations": {
+    "testklipp.mp4": 48.0,
+    "test_whoosh.wav": 0.8,
+    "test_pling.wav": 0.4,
+    "test_musik.wav": 10.0
+  }
+}
