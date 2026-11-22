@@ -1,0 +1,656 @@
+{
+ "name": "avsnitt6_05_pantamera",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "video": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/synkatklipp_avsnitt6.mp4",
+  "duration": 3103.767
+ },
+ "audio": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/3vligt_avsnitt6_mixdown.mp3",
+  "duration": 2893.19
+ },
+ "video_offset": -8.235,
+ "segments": [
+  {
+   "in": 600.48,
+   "out": 603.82,
+   "scale": 2.0,
+   "focus": [
+    212,
+    822
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "V 2x"
+  },
+  {
+   "in": 603.82,
+   "out": 606.25,
+   "scale": 2.0,
+   "focus": [
+    603,
+    810
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 2x"
+  },
+  {
+   "in": 613.1,
+   "out": 616.67,
+   "scale": 1.5,
+   "focus": [
+    603,
+    810
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 617.09,
+   "out": 619.82,
+   "scale": 2.0,
+   "focus": [
+    212,
+    822
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "V 2x"
+  },
+  {
+   "in": 619.82,
+   "out": 624.84,
+   "scale": 2.0,
+   "focus": [
+    948,
+    745
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "H 2x"
+  },
+  {
+   "in": 624.84,
+   "out": 627.94,
+   "scale": 1.5,
+   "focus": [
+    948,
+    745
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "H 1.5x"
+  },
+  {
+   "in": 627.94,
+   "out": 630.5,
+   "scale": 2.0,
+   "focus": [
+    603,
+    810
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 2x"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "är",
+    "start": 599.64,
+    "end": 599.69
+   },
+   {
+    "word": "bäst,",
+    "start": 599.69,
+    "end": 599.84
+   },
+   {
+    "word": "var",
+    "start": 599.84,
+    "end": 599.94
+   },
+   {
+    "word": "ärlig,",
+    "start": 599.94,
+    "end": 600.14
+   },
+   {
+    "word": "vem",
+    "start": 600.14,
+    "end": 600.28
+   },
+   {
+    "word": "är",
+    "start": 600.28,
+    "end": 600.33
+   },
+   {
+    "word": "bäst?",
+    "start": 600.33,
+    "end": 600.52
+   },
+   {
+    "word": "Vi",
+    "start": 600.52,
+    "end": 600.64
+   },
+   {
+    "word": "gick",
+    "start": 600.64,
+    "end": 600.84
+   },
+   {
+    "word": "till",
+    "start": 600.84,
+    "end": 600.89
+   },
+   {
+    "word": "musikhjälpen.",
+    "start": 600.89,
+    "end": 603.1
+   },
+   {
+    "word": "Vi",
+    "start": 603.1,
+    "end": 603.5
+   },
+   {
+    "word": "gick",
+    "start": 603.5,
+    "end": 603.66
+   },
+   {
+    "word": "till",
+    "start": 603.66,
+    "end": 603.82
+   },
+   {
+    "word": "musikhjälpen",
+    "start": 603.82,
+    "end": 604.6
+   },
+   {
+    "word": "för",
+    "start": 604.6,
+    "end": 604.8
+   },
+   {
+    "word": "att",
+    "start": 604.8,
+    "end": 604.98
+   },
+   {
+    "word": "vi",
+    "start": 604.98,
+    "end": 605.1
+   },
+   {
+    "word": "vann",
+    "start": 605.1,
+    "end": 605.3
+   },
+   {
+    "word": "på",
+    "start": 605.3,
+    "end": 605.48
+   },
+   {
+    "word": "CS.",
+    "start": 605.48,
+    "end": 605.9
+   },
+   {
+    "word": "Va!?",
+    "start": 605.9,
+    "end": 606.2
+   },
+   {
+    "word": "Vi",
+    "start": 606.32,
+    "end": 606.8
+   },
+   {
+    "word": "donerade",
+    "start": 606.8,
+    "end": 607.46
+   },
+   {
+    "word": "en",
+    "start": 607.46,
+    "end": 607.58
+   },
+   {
+    "word": "halv",
+    "start": 607.58,
+    "end": 607.84
+   },
+   {
+    "word": "miljon",
+    "start": 607.84,
+    "end": 608.08
+   },
+   {
+    "word": "...",
+    "start": 608.08,
+    "end": 608.22
+   },
+   {
+    "word": "Vilket",
+    "start": 608.22,
+    "end": 608.42
+   },
+   {
+    "word": "år",
+    "start": 608.42,
+    "end": 608.47
+   },
+   {
+    "word": "var",
+    "start": 608.47,
+    "end": 608.56
+   },
+   {
+    "word": "det",
+    "start": 608.56,
+    "end": 608.66
+   },
+   {
+    "word": "här?",
+    "start": 608.66,
+    "end": 609.16
+   },
+   {
+    "word": "2017",
+    "start": 609.63,
+    "end": 610.44
+   },
+   {
+    "word": "kanske?",
+    "start": 610.44,
+    "end": 610.88
+   },
+   {
+    "word": "Ah,",
+    "start": 610.88,
+    "end": 611.04
+   },
+   {
+    "word": "jag",
+    "start": 611.04,
+    "end": 611.14
+   },
+   {
+    "word": "vet",
+    "start": 611.14,
+    "end": 611.32
+   },
+   {
+    "word": "inte.",
+    "start": 611.32,
+    "end": 611.46
+   },
+   {
+    "word": "Nej,",
+    "start": 611.46,
+    "end": 611.76
+   },
+   {
+    "word": "2018?",
+    "start": 611.76,
+    "end": 612.06
+   },
+   {
+    "word": "1919?",
+    "start": 612.06,
+    "end": 613.14
+   },
+   {
+    "word": "Vi",
+    "start": 613.14,
+    "end": 613.54
+   },
+   {
+    "word": "donerade",
+    "start": 613.54,
+    "end": 613.94
+   },
+   {
+    "word": "en",
+    "start": 613.94,
+    "end": 614.06
+   },
+   {
+    "word": "halv",
+    "start": 614.06,
+    "end": 614.4
+   },
+   {
+    "word": "miljon",
+    "start": 614.4,
+    "end": 614.88
+   },
+   {
+    "word": "för",
+    "start": 614.88,
+    "end": 615.38
+   },
+   {
+    "word": "att",
+    "start": 615.38,
+    "end": 615.56
+   },
+   {
+    "word": "jag",
+    "start": 615.56,
+    "end": 615.74
+   },
+   {
+    "word": "och",
+    "start": 615.74,
+    "end": 615.86
+   },
+   {
+    "word": "Dennis",
+    "start": 615.86,
+    "end": 616.08
+   },
+   {
+    "word": "vann",
+    "start": 616.08,
+    "end": 616.57
+   },
+   {
+    "word": "till",
+    "start": 617.2,
+    "end": 617.38
+   },
+   {
+    "word": "musikhjälpen.",
+    "start": 617.38,
+    "end": 617.78
+   },
+   {
+    "word": "Vi",
+    "start": 617.78,
+    "end": 617.9
+   },
+   {
+    "word": "åkte",
+    "start": 617.9,
+    "end": 618.06
+   },
+   {
+    "word": "till",
+    "start": 618.06,
+    "end": 618.6
+   },
+   {
+    "word": "Lund",
+    "start": 618.6,
+    "end": 618.9
+   },
+   {
+    "word": "med",
+    "start": 618.9,
+    "end": 619.16
+   },
+   {
+    "word": "Anis",
+    "start": 619.16,
+    "end": 619.48
+   },
+   {
+    "word": "också",
+    "start": 619.48,
+    "end": 619.64
+   },
+   {
+    "word": "och",
+    "start": 619.64,
+    "end": 619.69
+   },
+   {
+    "word": "var",
+    "start": 619.69,
+    "end": 619.74
+   },
+   {
+    "word": "med.",
+    "start": 619.74,
+    "end": 619.82
+   },
+   {
+    "word": "Precis.",
+    "start": 619.82,
+    "end": 620.24
+   },
+   {
+    "word": "Fan",
+    "start": 620.24,
+    "end": 620.46
+   },
+   {
+    "word": "vad",
+    "start": 620.46,
+    "end": 620.51
+   },
+   {
+    "word": "grymma",
+    "start": 620.51,
+    "end": 620.68
+   },
+   {
+    "word": "ni",
+    "start": 620.68,
+    "end": 620.78
+   },
+   {
+    "word": "är",
+    "start": 620.78,
+    "end": 620.86
+   },
+   {
+    "word": "grabbar!",
+    "start": 620.86,
+    "end": 621.18
+   },
+   {
+    "word": "Vi",
+    "start": 621.18,
+    "end": 621.26
+   },
+   {
+    "word": "hämtade",
+    "start": 621.26,
+    "end": 621.54
+   },
+   {
+    "word": "honom.",
+    "start": 621.54,
+    "end": 622.66
+   },
+   {
+    "word": "Vi",
+    "start": 622.66,
+    "end": 623.06
+   },
+   {
+    "word": "hjälpte",
+    "start": 623.06,
+    "end": 623.38
+   },
+   {
+    "word": "honom",
+    "start": 623.38,
+    "end": 623.62
+   },
+   {
+    "word": "in",
+    "start": 623.62,
+    "end": 623.76
+   },
+   {
+    "word": "i",
+    "start": 623.76,
+    "end": 623.88
+   },
+   {
+    "word": "gamet.",
+    "start": 623.88,
+    "end": 624.58
+   },
+   {
+    "word": "Helt",
+    "start": 624.58,
+    "end": 624.84
+   },
+   {
+    "word": "otroligt...",
+    "start": 624.84,
+    "end": 625.38
+   },
+   {
+    "word": "Ni",
+    "start": 625.38,
+    "end": 625.43
+   },
+   {
+    "word": "donerade",
+    "start": 625.43,
+    "end": 625.84
+   },
+   {
+    "word": "era",
+    "start": 625.84,
+    "end": 626.02
+   },
+   {
+    "word": "bössor,",
+    "start": 626.02,
+    "end": 626.66
+   },
+   {
+    "word": "kom",
+    "start": 626.66,
+    "end": 627.5
+   },
+   {
+    "word": "upp",
+    "start": 627.5,
+    "end": 627.62
+   },
+   {
+    "word": "till",
+    "start": 627.62,
+    "end": 627.67
+   },
+   {
+    "word": "en",
+    "start": 627.67,
+    "end": 627.72
+   },
+   {
+    "word": "halv",
+    "start": 627.72,
+    "end": 627.94
+   },
+   {
+    "word": "miljon!",
+    "start": 627.94,
+    "end": 628.4
+   },
+   {
+    "word": "Det",
+    "start": 628.4,
+    "end": 628.8
+   },
+   {
+    "word": "var",
+    "start": 628.8,
+    "end": 629.06
+   },
+   {
+    "word": "inte",
+    "start": 629.06,
+    "end": 629.86
+   },
+   {
+    "word": "vi,",
+    "start": 629.86,
+    "end": 630.04
+   },
+   {
+    "word": "det",
+    "start": 630.04,
+    "end": 630.09
+   },
+   {
+    "word": "var",
+    "start": 630.09,
+    "end": 630.16
+   },
+   {
+    "word": "Pantamera!",
+    "start": 630.16,
+    "end": 630.52
+   },
+   {
+    "word": "för",
+    "start": 630.52,
+    "end": 630.92
+   },
+   {
+    "word": "e",
+    "start": 630.92,
+    "end": 631.04
+   },
+   {
+    "word": "-sporten?",
+    "start": 631.04,
+    "end": 631.36
+   },
+   {
+    "word": "Det",
+    "start": 631.36,
+    "end": 631.42
+   },
+   {
+    "word": "var",
+    "start": 631.42,
+    "end": 631.56
+   }
+  ],
+  "size": 60,
+  "y": 1380,
+  "max_words": 3,
+  "max_chars": 16
+ },
+ "srt": true
+}

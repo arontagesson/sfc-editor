@@ -1,0 +1,701 @@
+{
+ "name": "avsnitt6_04_riga",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "video": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/synkatklipp_avsnitt6.mp4",
+  "duration": 3103.767
+ },
+ "audio": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/3vligt_avsnitt6_mixdown.mp3",
+  "duration": 2893.19
+ },
+ "video_offset": -8.235,
+ "segments": [
+  {
+   "in": 123.3,
+   "out": 128.17,
+   "scale": 2.0,
+   "focus": [
+    370,
+    748
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "V 2x"
+  },
+  {
+   "in": 128.17,
+   "out": 131.46,
+   "scale": 2.0,
+   "focus": [
+    617,
+    801
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 2x"
+  },
+  {
+   "in": 131.46,
+   "out": 135.7,
+   "scale": 2.0,
+   "focus": [
+    1045,
+    780
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "H 2x"
+  },
+  {
+   "in": 135.7,
+   "out": 140.91,
+   "scale": 2.0,
+   "focus": [
+    617,
+    801
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 2x"
+  },
+  {
+   "in": 141.29,
+   "out": 147.36,
+   "scale": 2.0,
+   "focus": [
+    370,
+    748
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "V 2x"
+  },
+  {
+   "in": 147.36,
+   "out": 153.18,
+   "scale": 2.0,
+   "focus": [
+    617,
+    801
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 2x"
+  },
+  {
+   "in": 153.18,
+   "out": 155.95,
+   "scale": 1.5,
+   "focus": [
+    617,
+    801
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.235,
+   "label": "M 1.5x"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "Jag",
+    "start": 122.46,
+    "end": 122.51
+   },
+   {
+    "word": "ser",
+    "start": 122.51,
+    "end": 122.6
+   },
+   {
+    "word": "en",
+    "start": 122.6,
+    "end": 122.65
+   },
+   {
+    "word": "kanal.",
+    "start": 122.65,
+    "end": 122.99
+   },
+   {
+    "word": "Flög",
+    "start": 123.34,
+    "end": 124.34
+   },
+   {
+    "word": "du",
+    "start": 124.34,
+    "end": 124.46
+   },
+   {
+    "word": "dit?",
+    "start": 124.46,
+    "end": 125.12
+   },
+   {
+    "word": "Va?!",
+    "start": 125.24,
+    "end": 126.8
+   },
+   {
+    "word": "Nej,",
+    "start": 126.8,
+    "end": 127.6
+   },
+   {
+    "word": "du",
+    "start": 127.6,
+    "end": 127.65
+   },
+   {
+    "word": "flög",
+    "start": 127.65,
+    "end": 127.9
+   },
+   {
+    "word": "ju.",
+    "start": 127.9,
+    "end": 128.01
+   },
+   {
+    "word": "Nej!",
+    "start": 128.17,
+    "end": 129.14
+   },
+   {
+    "word": "Du",
+    "start": 129.14,
+    "end": 129.54
+   },
+   {
+    "word": "missar",
+    "start": 129.54,
+    "end": 129.92
+   },
+   {
+    "word": "ju",
+    "start": 129.92,
+    "end": 129.97
+   },
+   {
+    "word": "halva",
+    "start": 129.97,
+    "end": 130.2
+   },
+   {
+    "word": "upplevelsen.",
+    "start": 130.2,
+    "end": 130.86
+   },
+   {
+    "word": "Ja",
+    "start": 130.86,
+    "end": 131.32
+   },
+   {
+    "word": "men",
+    "start": 131.32,
+    "end": 131.46
+   },
+   {
+    "word": "vadå,",
+    "start": 131.46,
+    "end": 132.06
+   },
+   {
+    "word": "beskriv",
+    "start": 132.06,
+    "end": 132.44
+   },
+   {
+    "word": "upplevelsen",
+    "start": 132.44,
+    "end": 132.94
+   },
+   {
+    "word": "då!",
+    "start": 132.94,
+    "end": 133.1
+   },
+   {
+    "word": "Man",
+    "start": 133.1,
+    "end": 133.3
+   },
+   {
+    "word": "åker",
+    "start": 133.3,
+    "end": 133.72
+   },
+   {
+    "word": "båt!",
+    "start": 133.72,
+    "end": 134.16
+   },
+   {
+    "word": "Från",
+    "start": 134.37,
+    "end": 134.68
+   },
+   {
+    "word": "Stockholm",
+    "start": 134.68,
+    "end": 135.7
+   },
+   {
+    "word": "till...",
+    "start": 135.7,
+    "end": 136.16
+   },
+   {
+    "word": "Ja,",
+    "start": 136.16,
+    "end": 136.44
+   },
+   {
+    "word": "exakt!",
+    "start": 136.44,
+    "end": 136.97
+   },
+   {
+    "word": "Det",
+    "start": 137.16,
+    "end": 137.3
+   },
+   {
+    "word": "är",
+    "start": 137.3,
+    "end": 137.38
+   },
+   {
+    "word": "ju",
+    "start": 137.38,
+    "end": 137.48
+   },
+   {
+    "word": "det",
+    "start": 137.48,
+    "end": 137.62
+   },
+   {
+    "word": "som",
+    "start": 137.62,
+    "end": 137.74
+   },
+   {
+    "word": "är",
+    "start": 137.74,
+    "end": 137.88
+   },
+   {
+    "word": "det",
+    "start": 137.88,
+    "end": 137.93
+   },
+   {
+    "word": "viktiga.",
+    "start": 137.93,
+    "end": 138.46
+   },
+   {
+    "word": "Ja,",
+    "start": 138.46,
+    "end": 138.56
+   },
+   {
+    "word": "men",
+    "start": 138.56,
+    "end": 138.66
+   },
+   {
+    "word": "vi",
+    "start": 138.66,
+    "end": 138.78
+   },
+   {
+    "word": "flög.",
+    "start": 138.78,
+    "end": 139.28
+   },
+   {
+    "word": "Okej,",
+    "start": 139.28,
+    "end": 139.54
+   },
+   {
+    "word": "ni",
+    "start": 139.54,
+    "end": 139.62
+   },
+   {
+    "word": "flög?",
+    "start": 139.62,
+    "end": 139.96
+   },
+   {
+    "word": "Ja,",
+    "start": 139.96,
+    "end": 140.08
+   },
+   {
+    "word": "vi",
+    "start": 140.08,
+    "end": 140.18
+   },
+   {
+    "word": "flög.",
+    "start": 140.18,
+    "end": 140.4
+   },
+   {
+    "word": "Sen",
+    "start": 140.4,
+    "end": 140.62
+   },
+   {
+    "word": "då?",
+    "start": 140.62,
+    "end": 140.8
+   },
+   {
+    "word": "Vi",
+    "start": 141.41,
+    "end": 141.58
+   },
+   {
+    "word": "flög",
+    "start": 141.58,
+    "end": 141.76
+   },
+   {
+    "word": "dit,",
+    "start": 141.76,
+    "end": 142.1
+   },
+   {
+    "word": "sen",
+    "start": 142.1,
+    "end": 142.22
+   },
+   {
+    "word": "var",
+    "start": 142.22,
+    "end": 142.3
+   },
+   {
+    "word": "vi",
+    "start": 142.3,
+    "end": 142.38
+   },
+   {
+    "word": "där,",
+    "start": 142.38,
+    "end": 142.86
+   },
+   {
+    "word": "sen",
+    "start": 142.86,
+    "end": 142.94
+   },
+   {
+    "word": "åkte",
+    "start": 142.94,
+    "end": 143.08
+   },
+   {
+    "word": "vi",
+    "start": 143.08,
+    "end": 143.16
+   },
+   {
+    "word": "hem.",
+    "start": 143.16,
+    "end": 143.4
+   },
+   {
+    "word": "Vad",
+    "start": 143.4,
+    "end": 143.58
+   },
+   {
+    "word": "fan",
+    "start": 143.58,
+    "end": 143.74
+   },
+   {
+    "word": "tror",
+    "start": 143.74,
+    "end": 143.79
+   },
+   {
+    "word": "du?",
+    "start": 143.79,
+    "end": 143.86
+   },
+   {
+    "word": "Det",
+    "start": 143.86,
+    "end": 143.96
+   },
+   {
+    "word": "var",
+    "start": 143.96,
+    "end": 144.3
+   },
+   {
+    "word": "en",
+    "start": 144.3,
+    "end": 144.35
+   },
+   {
+    "word": "tråkig",
+    "start": 144.35,
+    "end": 144.58
+   },
+   {
+    "word": "beskrivning",
+    "start": 144.58,
+    "end": 145.1
+   },
+   {
+    "word": "av",
+    "start": 145.1,
+    "end": 145.28
+   },
+   {
+    "word": "semestern.",
+    "start": 145.28,
+    "end": 145.78
+   },
+   {
+    "word": "Men",
+    "start": 145.78,
+    "end": 145.92
+   },
+   {
+    "word": "jag",
+    "start": 145.92,
+    "end": 146.1
+   },
+   {
+    "word": "skoja,",
+    "start": 146.1,
+    "end": 146.76
+   },
+   {
+    "word": "jag",
+    "start": 146.76,
+    "end": 146.92
+   },
+   {
+    "word": "såg",
+    "start": 146.92,
+    "end": 147.22
+   },
+   {
+    "word": "ju",
+    "start": 147.22,
+    "end": 147.36
+   },
+   {
+    "word": "inte.",
+    "start": 147.36,
+    "end": 148.54
+   },
+   {
+    "word": "Det",
+    "start": 148.54,
+    "end": 148.72
+   },
+   {
+    "word": "där",
+    "start": 148.72,
+    "end": 148.94
+   },
+   {
+    "word": "sa",
+    "start": 148.94,
+    "end": 149.08
+   },
+   {
+    "word": "grabben.",
+    "start": 149.08,
+    "end": 150.12
+   },
+   {
+    "word": "När",
+    "start": 150.12,
+    "end": 150.17
+   },
+   {
+    "word": "vi",
+    "start": 150.17,
+    "end": 150.32
+   },
+   {
+    "word": "kom",
+    "start": 150.32,
+    "end": 150.48
+   },
+   {
+    "word": "hem",
+    "start": 150.48,
+    "end": 150.66
+   },
+   {
+    "word": "till",
+    "start": 150.66,
+    "end": 150.74
+   },
+   {
+    "word": "Caroline",
+    "start": 150.74,
+    "end": 151.12
+   },
+   {
+    "word": "bara",
+    "start": 151.12,
+    "end": 151.32
+   },
+   {
+    "word": ";",
+    "start": 151.32,
+    "end": 151.44
+   },
+   {
+    "word": "Ah",
+    "start": 151.44,
+    "end": 151.63
+   },
+   {
+    "word": "Dennis",
+    "start": 151.79,
+    "end": 152.08
+   },
+   {
+    "word": "han",
+    "start": 152.08,
+    "end": 152.22
+   },
+   {
+    "word": "var",
+    "start": 152.22,
+    "end": 152.38
+   },
+   {
+    "word": "på..",
+    "start": 152.38,
+    "end": 152.76
+   },
+   {
+    "word": "han",
+    "start": 152.76,
+    "end": 153.18
+   },
+   {
+    "word": "har",
+    "start": 153.18,
+    "end": 153.24
+   },
+   {
+    "word": "gjort",
+    "start": 153.24,
+    "end": 153.36
+   },
+   {
+    "word": "det",
+    "start": 153.36,
+    "end": 153.48
+   },
+   {
+    "word": "här,",
+    "start": 153.48,
+    "end": 153.66
+   },
+   {
+    "word": "vad",
+    "start": 153.66,
+    "end": 153.98
+   },
+   {
+    "word": "gjorde",
+    "start": 153.98,
+    "end": 154.2
+   },
+   {
+    "word": "han?",
+    "start": 154.2,
+    "end": 154.4
+   },
+   {
+    "word": "Nej,",
+    "start": 154.59,
+    "end": 154.84
+   },
+   {
+    "word": "han",
+    "start": 154.84,
+    "end": 154.89
+   },
+   {
+    "word": "var",
+    "start": 154.89,
+    "end": 154.96
+   },
+   {
+    "word": "där.",
+    "start": 154.96,
+    "end": 155.2
+   },
+   {
+    "word": "Sen",
+    "start": 155.2,
+    "end": 155.34
+   },
+   {
+    "word": "åkte",
+    "start": 155.34,
+    "end": 155.48
+   },
+   {
+    "word": "han",
+    "start": 155.48,
+    "end": 155.56
+   },
+   {
+    "word": "hem.",
+    "start": 155.56,
+    "end": 157.06
+   }
+  ],
+  "size": 60,
+  "y": 1380,
+  "max_words": 3,
+  "max_chars": 16
+ },
+ "srt": true
+}

@@ -1,0 +1,1311 @@
+{
+ "name": "avsnitt6_02_kungen",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "video": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/synkatklipp_avsnitt6.mp4",
+  "duration": 3103.767
+ },
+ "audio": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/3vligt_avsnitt6_mixdown.mp3",
+  "duration": 2893.19
+ },
+ "video_offset": 144.583,
+ "segments": [
+  {
+   "in": 2655.32,
+   "out": 2660.54,
+   "scale": 2.0,
+   "focus": [
+    886,
+    793
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 144.583,
+   "label": "H 2x"
+  },
+  {
+   "in": 2660.54,
+   "out": 2661.76,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 144.583,
+   "label": "M 2x"
+  },
+  {
+   "in": 2662.17,
+   "out": 2664.87,
+   "scale": 1.5,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 2664.87,
+   "out": 2668.3,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2668.3,
+   "out": 2672.66,
+   "scale": 1.5,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 2672.99,
+   "out": 2673.8,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2673.8,
+   "out": 2676.1,
+   "scale": 1.0,
+   "focus": [
+    540,
+    960
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "W 1x"
+  },
+  {
+   "in": 2676.1,
+   "out": 2681.02,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2681.02,
+   "out": 2684.95,
+   "scale": 1.5,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 2685.21,
+   "out": 2685.52,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2686.15,
+   "out": 2687.7,
+   "scale": 1.5,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 2687.7,
+   "out": 2691.8,
+   "scale": 1.0,
+   "focus": [
+    540,
+    960
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "W 1x"
+  },
+  {
+   "in": 2691.8,
+   "out": 2694.9,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2694.9,
+   "out": 2703.02,
+   "scale": 1.0,
+   "focus": [
+    540,
+    960
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "W 1x"
+  },
+  {
+   "in": 2703.3,
+   "out": 2710.66,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2710.87,
+   "out": 2712.6,
+   "scale": 1.0,
+   "focus": [
+    540,
+    960
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "W 1x"
+  },
+  {
+   "in": 2712.6,
+   "out": 2716.4,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2716.4,
+   "out": 2718.8,
+   "scale": 1.0,
+   "focus": [
+    540,
+    960
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "W 1x"
+  },
+  {
+   "in": 2718.8,
+   "out": 2726.09,
+   "scale": 2.0,
+   "focus": [
+    670,
+    821
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "M 2x"
+  },
+  {
+   "in": 2726.09,
+   "out": 2729.87,
+   "scale": 2.0,
+   "focus": [
+    886,
+    793
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "H 2x"
+  },
+  {
+   "in": 2729.87,
+   "out": 2735.05,
+   "scale": 2.0,
+   "focus": [
+    156,
+    828
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": 197.921,
+   "label": "V 2x"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "Nej,",
+    "start": 2654.44,
+    "end": 2654.6
+   },
+   {
+    "word": "men",
+    "start": 2654.6,
+    "end": 2654.65
+   },
+   {
+    "word": "vi",
+    "start": 2654.65,
+    "end": 2654.7
+   },
+   {
+    "word": "får...",
+    "start": 2654.7,
+    "end": 2654.92
+   },
+   {
+    "word": "Nej,",
+    "start": 2654.92,
+    "end": 2655.06
+   },
+   {
+    "word": "grabbar.",
+    "start": 2655.06,
+    "end": 2655.36
+   },
+   {
+    "word": "Nej,",
+    "start": 2655.36,
+    "end": 2655.41
+   },
+   {
+    "word": "vi",
+    "start": 2655.41,
+    "end": 2655.56
+   },
+   {
+    "word": "måste",
+    "start": 2655.56,
+    "end": 2655.78
+   },
+   {
+    "word": "avsluta",
+    "start": 2655.78,
+    "end": 2656.12
+   },
+   {
+    "word": "den",
+    "start": 2656.12,
+    "end": 2656.36
+   },
+   {
+    "word": "här",
+    "start": 2656.36,
+    "end": 2656.41
+   },
+   {
+    "word": "podden",
+    "start": 2656.41,
+    "end": 2656.72
+   },
+   {
+    "word": "med",
+    "start": 2656.72,
+    "end": 2656.9
+   },
+   {
+    "word": "en",
+    "start": 2656.9,
+    "end": 2657.26
+   },
+   {
+    "word": "kontakt",
+    "start": 2657.42,
+    "end": 2657.72
+   },
+   {
+    "word": "till",
+    "start": 2657.72,
+    "end": 2657.82
+   },
+   {
+    "word": "kungen.",
+    "start": 2657.82,
+    "end": 2657.97
+   },
+   {
+    "word": "Okej.",
+    "start": 2658.15,
+    "end": 2658.51
+   },
+   {
+    "word": "Så",
+    "start": 2658.99,
+    "end": 2659.06
+   },
+   {
+    "word": "vänta,",
+    "start": 2659.06,
+    "end": 2659.3
+   },
+   {
+    "word": "dom",
+    "start": 2659.47,
+    "end": 2659.58
+   },
+   {
+    "word": "är",
+    "start": 2659.58,
+    "end": 2659.74
+   },
+   {
+    "word": "ringa",
+    "start": 2659.74,
+    "end": 2659.92
+   },
+   {
+    "word": "någon",
+    "start": 2659.92,
+    "end": 2659.97
+   },
+   {
+    "word": "här.",
+    "start": 2660.54,
+    "end": 2660.59
+   },
+   {
+    "word": "Okej,",
+    "start": 2660.59,
+    "end": 2660.84
+   },
+   {
+    "word": "vi",
+    "start": 2660.84,
+    "end": 2661.12
+   },
+   {
+    "word": "löser",
+    "start": 2661.12,
+    "end": 2661.38
+   },
+   {
+    "word": "kungen.",
+    "start": 2661.38,
+    "end": 2661.76
+   },
+   {
+    "word": "Jag",
+    "start": 2662.21,
+    "end": 2662.32
+   },
+   {
+    "word": "ringer",
+    "start": 2662.32,
+    "end": 2662.52
+   },
+   {
+    "word": "Bosse",
+    "start": 2662.52,
+    "end": 2662.8
+   },
+   {
+    "word": "nu.",
+    "start": 2662.8,
+    "end": 2663.77
+   },
+   {
+    "word": "Spännande.",
+    "start": 2663.91,
+    "end": 2664.69
+   },
+   {
+    "word": "Bosse",
+    "start": 2664.87,
+    "end": 2665.14
+   },
+   {
+    "word": "Andersson.",
+    "start": 2665.14,
+    "end": 2665.56
+   },
+   {
+    "word": "Bosse.",
+    "start": 2668.43,
+    "end": 2668.83
+   },
+   {
+    "word": "Tjena",
+    "start": 2669.06,
+    "end": 2669.5
+   },
+   {
+    "word": "Bosse.",
+    "start": 2669.5,
+    "end": 2670.16
+   },
+   {
+    "word": "Det",
+    "start": 2670.58,
+    "end": 2670.72
+   },
+   {
+    "word": "är",
+    "start": 2670.72,
+    "end": 2671.32
+   },
+   {
+    "word": "Ben",
+    "start": 2671.32,
+    "end": 2671.54
+   },
+   {
+    "word": "här.",
+    "start": 2671.54,
+    "end": 2671.85
+   },
+   {
+    "word": "Och",
+    "start": 2672.02,
+    "end": 2672.18
+   },
+   {
+    "word": "Momo.",
+    "start": 2672.18,
+    "end": 2672.51
+   },
+   {
+    "word": "Tjena",
+    "start": 2673.89,
+    "end": 2674.56
+   },
+   {
+    "word": "Ben.",
+    "start": 2674.56,
+    "end": 2674.93
+   },
+   {
+    "word": "Hallå?",
+    "start": 2675.12,
+    "end": 2675.46
+   },
+   {
+    "word": "Vi",
+    "start": 2676.22,
+    "end": 2677.34
+   },
+   {
+    "word": "har",
+    "start": 2677.34,
+    "end": 2677.86
+   },
+   {
+    "word": "en",
+    "start": 2677.86,
+    "end": 2677.91
+   },
+   {
+    "word": "fråga",
+    "start": 2677.91,
+    "end": 2678.16
+   },
+   {
+    "word": "till",
+    "start": 2678.16,
+    "end": 2678.22
+   },
+   {
+    "word": "dig.",
+    "start": 2678.22,
+    "end": 2678.4
+   },
+   {
+    "word": "Vi",
+    "start": 2678.87,
+    "end": 2679.06
+   },
+   {
+    "word": "tänkte",
+    "start": 2679.06,
+    "end": 2679.32
+   },
+   {
+    "word": "kolla",
+    "start": 2679.32,
+    "end": 2679.66
+   },
+   {
+    "word": "om...",
+    "start": 2679.66,
+    "end": 2680.84
+   },
+   {
+    "word": "Har",
+    "start": 2680.84,
+    "end": 2681.02
+   },
+   {
+    "word": "du",
+    "start": 2681.02,
+    "end": 2681.34
+   },
+   {
+    "word": "någon",
+    "start": 2681.34,
+    "end": 2681.56
+   },
+   {
+    "word": "kontakt",
+    "start": 2681.56,
+    "end": 2682.1
+   },
+   {
+    "word": "som",
+    "start": 2682.1,
+    "end": 2682.28
+   },
+   {
+    "word": "skulle",
+    "start": 2682.28,
+    "end": 2682.52
+   },
+   {
+    "word": "vara",
+    "start": 2682.52,
+    "end": 2682.76
+   },
+   {
+    "word": "ett",
+    "start": 2682.76,
+    "end": 2683.08
+   },
+   {
+    "word": "steg",
+    "start": 2683.08,
+    "end": 2683.3
+   },
+   {
+    "word": "närmare",
+    "start": 2683.3,
+    "end": 2683.7
+   },
+   {
+    "word": "kungen?",
+    "start": 2683.7,
+    "end": 2684.23
+   },
+   {
+    "word": "Absolut.",
+    "start": 2687.81,
+    "end": 2688.33
+   },
+   {
+    "word": "Kul.",
+    "start": 2688.33,
+    "end": 2688.71
+   },
+   {
+    "word": "Skulle",
+    "start": 2691.95,
+    "end": 2693.07
+   },
+   {
+    "word": "vi",
+    "start": 2693.07,
+    "end": 2693.19
+   },
+   {
+    "word": "kunna",
+    "start": 2693.19,
+    "end": 2693.41
+   },
+   {
+    "word": "få",
+    "start": 2693.41,
+    "end": 2693.69
+   },
+   {
+    "word": "den",
+    "start": 2693.69,
+    "end": 2693.99
+   },
+   {
+    "word": "kontakten?",
+    "start": 2693.99,
+    "end": 2694.56
+   },
+   {
+    "word": "Det",
+    "start": 2695.03,
+    "end": 2695.13
+   },
+   {
+    "word": "är",
+    "start": 2695.13,
+    "end": 2695.25
+   },
+   {
+    "word": "som",
+    "start": 2695.25,
+    "end": 2695.56
+   },
+   {
+    "word": "gjort",
+    "start": 2695.83,
+    "end": 2695.91
+   },
+   {
+    "word": "för",
+    "start": 2695.91,
+    "end": 2696.07
+   },
+   {
+    "word": "husen",
+    "start": 2696.07,
+    "end": 2696.53
+   },
+   {
+    "word": "i",
+    "start": 2696.69,
+    "end": 2696.74
+   },
+   {
+    "word": "Etan.",
+    "start": 2697.18,
+    "end": 2697.29
+   },
+   {
+    "word": "Svenska",
+    "start": 2697.29,
+    "end": 2697.73
+   },
+   {
+    "word": "kungen",
+    "start": 2697.73,
+    "end": 2698.05
+   },
+   {
+    "word": "eller?",
+    "start": 2698.05,
+    "end": 2698.55
+   },
+   {
+    "word": "Ja,",
+    "start": 2698.55,
+    "end": 2698.79
+   },
+   {
+    "word": "svenska",
+    "start": 2698.79,
+    "end": 2699.01
+   },
+   {
+    "word": "kungen.",
+    "start": 2699.01,
+    "end": 2699.91
+   },
+   {
+    "word": "Jag",
+    "start": 2700.12,
+    "end": 2700.53
+   },
+   {
+    "word": "känner",
+    "start": 2700.53,
+    "end": 2700.59
+   },
+   {
+    "word": "många",
+    "start": 2700.59,
+    "end": 2700.83
+   },
+   {
+    "word": "kungar.",
+    "start": 2700.83,
+    "end": 2701.53
+   },
+   {
+    "word": "Det",
+    "start": 2701.76,
+    "end": 2702.25
+   },
+   {
+    "word": "får",
+    "start": 2702.25,
+    "end": 2702.3
+   },
+   {
+    "word": "vi",
+    "start": 2702.3,
+    "end": 2702.43
+   },
+   {
+    "word": "lösa.",
+    "start": 2702.43,
+    "end": 2702.88
+   },
+   {
+    "word": "Snällt,",
+    "start": 2703.71,
+    "end": 2704.14
+   },
+   {
+    "word": "kung",
+    "start": 2704.26,
+    "end": 2704.45
+   },
+   {
+    "word": "Karl",
+    "start": 2704.45,
+    "end": 2704.65
+   },
+   {
+    "word": "alltså.",
+    "start": 2704.65,
+    "end": 2704.9
+   },
+   {
+    "word": "Ja,",
+    "start": 2705.76,
+    "end": 2706.43
+   },
+   {
+    "word": "kung",
+    "start": 2706.43,
+    "end": 2706.67
+   },
+   {
+    "word": "Karl.",
+    "start": 2706.67,
+    "end": 2706.95
+   },
+   {
+    "word": "Okej,",
+    "start": 2707.13,
+    "end": 2707.75
+   },
+   {
+    "word": "men",
+    "start": 2707.75,
+    "end": 2707.81
+   },
+   {
+    "word": "då",
+    "start": 2707.81,
+    "end": 2708.09
+   },
+   {
+    "word": "ringer",
+    "start": 2708.09,
+    "end": 2708.19
+   },
+   {
+    "word": "vi",
+    "start": 2708.19,
+    "end": 2708.77
+   },
+   {
+    "word": "dig",
+    "start": 2708.77,
+    "end": 2709.19
+   },
+   {
+    "word": "om",
+    "start": 2709.19,
+    "end": 2709.83
+   },
+   {
+    "word": "numret",
+    "start": 2709.83,
+    "end": 2710.42
+   },
+   {
+    "word": "snart",
+    "start": 2711.46,
+    "end": 2711.51
+   },
+   {
+    "word": "då.",
+    "start": 2711.51,
+    "end": 2711.56
+   },
+   {
+    "word": "Kung",
+    "start": 2711.56,
+    "end": 2712.01
+   },
+   {
+    "word": "Karl.",
+    "start": 2712.01,
+    "end": 2712.37
+   },
+   {
+    "word": "Ja",
+    "start": 2712.71,
+    "end": 2713.73
+   },
+   {
+    "word": "men",
+    "start": 2713.73,
+    "end": 2713.83
+   },
+   {
+    "word": "då",
+    "start": 2713.83,
+    "end": 2714.01
+   },
+   {
+    "word": "så,",
+    "start": 2714.01,
+    "end": 2714.31
+   },
+   {
+    "word": "då",
+    "start": 2714.31,
+    "end": 2714.39
+   },
+   {
+    "word": "har",
+    "start": 2714.39,
+    "end": 2714.44
+   },
+   {
+    "word": "vi",
+    "start": 2714.44,
+    "end": 2714.49
+   },
+   {
+    "word": "kungen.",
+    "start": 2714.49,
+    "end": 2714.87
+   },
+   {
+    "word": "Tack",
+    "start": 2714.87,
+    "end": 2715.19
+   },
+   {
+    "word": "så",
+    "start": 2715.19,
+    "end": 2715.31
+   },
+   {
+    "word": "jättemycket",
+    "start": 2715.31,
+    "end": 2715.67
+   },
+   {
+    "word": "Bosse.",
+    "start": 2715.67,
+    "end": 2716.3
+   },
+   {
+    "word": "Bästa,",
+    "start": 2716.57,
+    "end": 2716.97
+   },
+   {
+    "word": "bästa,",
+    "start": 2716.97,
+    "end": 2717.17
+   },
+   {
+    "word": "tack.",
+    "start": 2717.17,
+    "end": 2717.97
+   },
+   {
+    "word": "Fan",
+    "start": 2718.9,
+    "end": 2719.17
+   },
+   {
+    "word": "det",
+    "start": 2719.17,
+    "end": 2719.53
+   },
+   {
+    "word": "känns...",
+    "start": 2719.53,
+    "end": 2719.85
+   },
+   {
+    "word": "det",
+    "start": 2719.85,
+    "end": 2719.95
+   },
+   {
+    "word": "känns",
+    "start": 2719.95,
+    "end": 2720.07
+   },
+   {
+    "word": "inte",
+    "start": 2720.07,
+    "end": 2720.21
+   },
+   {
+    "word": "som",
+    "start": 2720.21,
+    "end": 2720.37
+   },
+   {
+    "word": "att",
+    "start": 2720.37,
+    "end": 2720.42
+   },
+   {
+    "word": "han",
+    "start": 2720.42,
+    "end": 2720.51
+   },
+   {
+    "word": "var",
+    "start": 2720.51,
+    "end": 2720.61
+   },
+   {
+    "word": "så",
+    "start": 2720.61,
+    "end": 2720.66
+   },
+   {
+    "word": "taggad",
+    "start": 2720.66,
+    "end": 2721.03
+   },
+   {
+    "word": "Fan",
+    "start": 2721.03,
+    "end": 2721.55
+   },
+   {
+    "word": "alltså",
+    "start": 2721.55,
+    "end": 2722.75
+   },
+   {
+    "word": "det",
+    "start": 2722.75,
+    "end": 2722.83
+   },
+   {
+    "word": "lät",
+    "start": 2722.83,
+    "end": 2723.01
+   },
+   {
+    "word": "inte",
+    "start": 2723.01,
+    "end": 2723.19
+   },
+   {
+    "word": "bra",
+    "start": 2723.19,
+    "end": 2723.39
+   },
+   {
+    "word": "alls",
+    "start": 2723.39,
+    "end": 2723.91
+   },
+   {
+    "word": "Jo,",
+    "start": 2723.91,
+    "end": 2724.45
+   },
+   {
+    "word": "jag",
+    "start": 2724.45,
+    "end": 2724.63
+   },
+   {
+    "word": "lovar",
+    "start": 2724.63,
+    "end": 2724.83
+   },
+   {
+    "word": "jag",
+    "start": 2724.83,
+    "end": 2724.99
+   },
+   {
+    "word": "låter.",
+    "start": 2724.99,
+    "end": 2725.47
+   },
+   {
+    "word": "Det",
+    "start": 2725.47,
+    "end": 2725.57
+   },
+   {
+    "word": "här",
+    "start": 2725.57,
+    "end": 2725.69
+   },
+   {
+    "word": "var",
+    "start": 2725.69,
+    "end": 2725.81
+   },
+   {
+    "word": "ett",
+    "start": 2725.81,
+    "end": 2725.86
+   },
+   {
+    "word": "dåligt",
+    "start": 2725.86,
+    "end": 2726.09
+   },
+   {
+    "word": "samtal",
+    "start": 2726.09,
+    "end": 2726.14
+   },
+   {
+    "word": "Nej,",
+    "start": 2726.14,
+    "end": 2726.59
+   },
+   {
+    "word": "nej",
+    "start": 2726.59,
+    "end": 2727.01
+   },
+   {
+    "word": "vänta",
+    "start": 2727.01,
+    "end": 2727.06
+   },
+   {
+    "word": "jag",
+    "start": 2727.06,
+    "end": 2727.11
+   },
+   {
+    "word": "ser",
+    "start": 2727.11,
+    "end": 2727.16
+   },
+   {
+    "word": "bara",
+    "start": 2727.16,
+    "end": 2727.31
+   },
+   {
+    "word": "- vad",
+    "start": 2727.31,
+    "end": 2727.36
+   },
+   {
+    "word": "var",
+    "start": 2727.36,
+    "end": 2727.91
+   },
+   {
+    "word": "det",
+    "start": 2727.91,
+    "end": 2729.87
+   },
+   {
+    "word": "där",
+    "start": 2729.87,
+    "end": 2729.92
+   },
+   {
+    "word": "för",
+    "start": 2729.92,
+    "end": 2731.15
+   },
+   {
+    "word": "samtal?",
+    "start": 2731.15,
+    "end": 2731.99
+   },
+   {
+    "word": "Vi",
+    "start": 2731.99,
+    "end": 2732.07
+   },
+   {
+    "word": "kanske",
+    "start": 2732.07,
+    "end": 2732.25
+   },
+   {
+    "word": "skulle",
+    "start": 2732.25,
+    "end": 2732.31
+   },
+   {
+    "word": "sagt",
+    "start": 2732.31,
+    "end": 2732.47
+   },
+   {
+    "word": "att",
+    "start": 2732.47,
+    "end": 2732.53
+   },
+   {
+    "word": "det",
+    "start": 2732.53,
+    "end": 2732.59
+   },
+   {
+    "word": "var",
+    "start": 2732.59,
+    "end": 2732.64
+   },
+   {
+    "word": "en",
+    "start": 2732.64,
+    "end": 2732.77
+   },
+   {
+    "word": "podd",
+    "start": 2732.77,
+    "end": 2732.93
+   },
+   {
+    "word": "eller",
+    "start": 2732.93,
+    "end": 2733.03
+   },
+   {
+    "word": "nånting?",
+    "start": 2733.03,
+    "end": 2733.73
+   },
+   {
+    "word": "Nej",
+    "start": 2733.73,
+    "end": 2733.79
+   },
+   {
+    "word": "vi",
+    "start": 2733.79,
+    "end": 2733.93
+   },
+   {
+    "word": "sa",
+    "start": 2733.93,
+    "end": 2734.09
+   },
+   {
+    "word": "inte",
+    "start": 2734.09,
+    "end": 2734.21
+   },
+   {
+    "word": "ens",
+    "start": 2734.21,
+    "end": 2734.41
+   },
+   {
+    "word": "nåt",
+    "start": 2734.41,
+    "end": 2735.97
+   },
+   {
+    "word": "Han",
+    "start": 2735.97,
+    "end": 2736.33
+   }
+  ],
+  "size": 60,
+  "y": 1380,
+  "max_words": 3,
+  "max_chars": 16
+ },
+ "srt": true
+}

@@ -1,0 +1,791 @@
+{
+ "name": "avsnitt6_03_julklappar",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "video": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/synkatklipp_avsnitt6.mp4",
+  "duration": 3103.767
+ },
+ "audio": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/3vligt_avsnitt6_mixdown.mp3",
+  "duration": 2893.19
+ },
+ "video_offset": -10.515,
+ "segments": [
+  {
+   "in": 994.06,
+   "out": 1000.91,
+   "scale": 2.0,
+   "focus": [
+    551,
+    817
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "M 2x"
+  },
+  {
+   "in": 1000.91,
+   "out": 1006.21,
+   "scale": 1.5,
+   "focus": [
+    551,
+    817
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 1006.53,
+   "out": 1010.89,
+   "scale": 2.0,
+   "focus": [
+    949,
+    741
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "H 2x"
+  },
+  {
+   "in": 1010.89,
+   "out": 1015.67,
+   "scale": 2.0,
+   "focus": [
+    551,
+    817
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "M 2x"
+  },
+  {
+   "in": 1015.67,
+   "out": 1022.34,
+   "scale": 1.5,
+   "focus": [
+    551,
+    817
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "M 1.5x"
+  },
+  {
+   "in": 1022.34,
+   "out": 1025.75,
+   "scale": 2.0,
+   "focus": [
+    551,
+    817
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "M 2x"
+  },
+  {
+   "in": 1025.75,
+   "out": 1030.55,
+   "scale": 2.0,
+   "focus": [
+    949,
+    741
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -10.515,
+   "label": "H 2x"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "okej.",
+    "start": 993.19,
+    "end": 993.56
+   },
+   {
+    "word": "Jag",
+    "start": 994.1,
+    "end": 994.22
+   },
+   {
+    "word": "fixar",
+    "start": 994.22,
+    "end": 994.73
+   },
+   {
+    "word": "det,",
+    "start": 994.73,
+    "end": 994.95
+   },
+   {
+    "word": "Black",
+    "start": 994.95,
+    "end": 995.15
+   },
+   {
+    "word": "Friday",
+    "start": 995.15,
+    "end": 995.63
+   },
+   {
+    "word": "och",
+    "start": 995.63,
+    "end": 995.85
+   },
+   {
+    "word": "bla",
+    "start": 995.85,
+    "end": 996.31
+   },
+   {
+    "word": "bla",
+    "start": 996.31,
+    "end": 996.37
+   },
+   {
+    "word": "och",
+    "start": 996.37,
+    "end": 996.61
+   },
+   {
+    "word": "allt.",
+    "start": 996.61,
+    "end": 996.81
+   },
+   {
+    "word": "Sen",
+    "start": 997.3,
+    "end": 997.49
+   },
+   {
+    "word": "står",
+    "start": 997.49,
+    "end": 997.71
+   },
+   {
+    "word": "jag",
+    "start": 997.71,
+    "end": 997.83
+   },
+   {
+    "word": "där",
+    "start": 997.83,
+    "end": 998.01
+   },
+   {
+    "word": "på",
+    "start": 998.01,
+    "end": 998.15
+   },
+   {
+    "word": "min",
+    "start": 998.15,
+    "end": 998.39
+   },
+   {
+    "word": "födelsedag,",
+    "start": 998.39,
+    "end": 999.07
+   },
+   {
+    "word": "23",
+    "start": 999.07,
+    "end": 999.35
+   },
+   {
+    "word": "december",
+    "start": 999.35,
+    "end": 999.77
+   },
+   {
+    "word": "och",
+    "start": 999.77,
+    "end": 1000.31
+   },
+   {
+    "word": "jag",
+    "start": 1000.31,
+    "end": 1000.36
+   },
+   {
+    "word": "bara,",
+    "start": 1000.36,
+    "end": 1000.41
+   },
+   {
+    "word": "fuck.",
+    "start": 1000.41,
+    "end": 1000.81
+   },
+   {
+    "word": "Okej",
+    "start": 1000.81,
+    "end": 1000.91
+   },
+   {
+    "word": "jag",
+    "start": 1000.91,
+    "end": 1001.07
+   },
+   {
+    "word": "måste",
+    "start": 1001.07,
+    "end": 1001.31
+   },
+   {
+    "word": "åka",
+    "start": 1001.31,
+    "end": 1001.63
+   },
+   {
+    "word": "till",
+    "start": 1001.63,
+    "end": 1002.19
+   },
+   {
+    "word": "något",
+    "start": 1002.19,
+    "end": 1002.39
+   },
+   {
+    "word": "köpcentrum",
+    "start": 1002.39,
+    "end": 1002.89
+   },
+   {
+    "word": "och",
+    "start": 1002.89,
+    "end": 1002.97
+   },
+   {
+    "word": "köpa",
+    "start": 1002.97,
+    "end": 1003.29
+   },
+   {
+    "word": "julklappar.",
+    "start": 1003.29,
+    "end": 1004.07
+   },
+   {
+    "word": "Jag",
+    "start": 1004.07,
+    "end": 1004.31
+   },
+   {
+    "word": "har",
+    "start": 1004.31,
+    "end": 1004.36
+   },
+   {
+    "word": "bara",
+    "start": 1004.36,
+    "end": 1004.45
+   },
+   {
+    "word": "skjutit,",
+    "start": 1004.45,
+    "end": 1004.87
+   },
+   {
+    "word": "jag",
+    "start": 1004.87,
+    "end": 1004.93
+   },
+   {
+    "word": "bara,",
+    "start": 1004.93,
+    "end": 1005.05
+   },
+   {
+    "word": "jag",
+    "start": 1005.05,
+    "end": 1005.21
+   },
+   {
+    "word": "tar",
+    "start": 1005.21,
+    "end": 1005.35
+   },
+   {
+    "word": "imorgon.",
+    "start": 1005.35,
+    "end": 1006.19
+   },
+   {
+    "word": "Så",
+    "start": 1006.65,
+    "end": 1006.85
+   },
+   {
+    "word": "du",
+    "start": 1006.85,
+    "end": 1007.13
+   },
+   {
+    "word": "köper",
+    "start": 1007.13,
+    "end": 1007.35
+   },
+   {
+    "word": "inte",
+    "start": 1007.35,
+    "end": 1007.45
+   },
+   {
+    "word": "ens",
+    "start": 1007.45,
+    "end": 1007.53
+   },
+   {
+    "word": "julklappar",
+    "start": 1007.53,
+    "end": 1007.91
+   },
+   {
+    "word": "tills",
+    "start": 1007.91,
+    "end": 1008.09
+   },
+   {
+    "word": "din",
+    "start": 1008.09,
+    "end": 1008.31
+   },
+   {
+    "word": "födelsedag",
+    "start": 1008.31,
+    "end": 1008.85
+   },
+   {
+    "word": "börjar",
+    "start": 1008.85,
+    "end": 1009.11
+   },
+   {
+    "word": "alltså,",
+    "start": 1009.11,
+    "end": 1009.61
+   },
+   {
+    "word": "den",
+    "start": 1009.61,
+    "end": 1009.79
+   },
+   {
+    "word": "23",
+    "start": 1009.79,
+    "end": 1009.85
+   },
+   {
+    "word": "december?",
+    "start": 1009.85,
+    "end": 1010.89
+   },
+   {
+    "word": "Ibland",
+    "start": 1010.89,
+    "end": 1011.29
+   },
+   {
+    "word": "till",
+    "start": 1011.29,
+    "end": 1011.41
+   },
+   {
+    "word": "och",
+    "start": 1011.41,
+    "end": 1011.55
+   },
+   {
+    "word": "med",
+    "start": 1011.55,
+    "end": 1011.61
+   },
+   {
+    "word": "på",
+    "start": 1011.61,
+    "end": 1011.89
+   },
+   {
+    "word": "julafton",
+    "start": 1011.89,
+    "end": 1012.33
+   },
+   {
+    "word": "åker",
+    "start": 1012.33,
+    "end": 1012.73
+   },
+   {
+    "word": "jag",
+    "start": 1012.73,
+    "end": 1012.78
+   },
+   {
+    "word": "och",
+    "start": 1012.78,
+    "end": 1013.93
+   },
+   {
+    "word": "köper.",
+    "start": 1013.93,
+    "end": 1014.57
+   },
+   {
+    "word": "Jag",
+    "start": 1014.57,
+    "end": 1014.73
+   },
+   {
+    "word": "gjorde",
+    "start": 1014.73,
+    "end": 1014.93
+   },
+   {
+    "word": "det",
+    "start": 1014.93,
+    "end": 1015.05
+   },
+   {
+    "word": "förr",
+    "start": 1015.05,
+    "end": 1015.29
+   },
+   {
+    "word": "förra",
+    "start": 1015.29,
+    "end": 1015.39
+   },
+   {
+    "word": "året.",
+    "start": 1015.39,
+    "end": 1015.59
+   },
+   {
+    "word": "Jag",
+    "start": 1015.59,
+    "end": 1015.67
+   },
+   {
+    "word": "åkte",
+    "start": 1015.67,
+    "end": 1015.89
+   },
+   {
+    "word": "på",
+    "start": 1015.89,
+    "end": 1016.25
+   },
+   {
+    "word": "julafton,",
+    "start": 1016.25,
+    "end": 1016.75
+   },
+   {
+    "word": "jag",
+    "start": 1016.75,
+    "end": 1016.81
+   },
+   {
+    "word": "bara,",
+    "start": 1016.81,
+    "end": 1016.99
+   },
+   {
+    "word": "hjärtat",
+    "start": 1016.99,
+    "end": 1017.37
+   },
+   {
+    "word": "jag",
+    "start": 1017.37,
+    "end": 1017.42
+   },
+   {
+    "word": "ska",
+    "start": 1017.42,
+    "end": 1017.59
+   },
+   {
+    "word": "iväg",
+    "start": 1017.59,
+    "end": 1017.87
+   },
+   {
+    "word": "lite",
+    "start": 1017.87,
+    "end": 1018.07
+   },
+   {
+    "word": "snabbt.",
+    "start": 1018.07,
+    "end": 1018.73
+   },
+   {
+    "word": "så",
+    "start": 1018.73,
+    "end": 1018.87
+   },
+   {
+    "word": "går",
+    "start": 1018.87,
+    "end": 1018.97
+   },
+   {
+    "word": "jag",
+    "start": 1018.97,
+    "end": 1019.02
+   },
+   {
+    "word": "och",
+    "start": 1019.02,
+    "end": 1019.11
+   },
+   {
+    "word": "köper",
+    "start": 1019.11,
+    "end": 1019.19
+   },
+   {
+    "word": "julklappar,",
+    "start": 1019.19,
+    "end": 1019.77
+   },
+   {
+    "word": "kommer",
+    "start": 1019.77,
+    "end": 1019.85
+   },
+   {
+    "word": "hem",
+    "start": 1019.85,
+    "end": 1020.07
+   },
+   {
+    "word": "så",
+    "start": 1020.07,
+    "end": 1020.25
+   },
+   {
+    "word": "lägger",
+    "start": 1020.25,
+    "end": 1020.37
+   },
+   {
+    "word": "jag",
+    "start": 1020.37,
+    "end": 1020.43
+   },
+   {
+    "word": "dom",
+    "start": 1020.43,
+    "end": 1020.59
+   },
+   {
+    "word": "under",
+    "start": 1020.59,
+    "end": 1020.87
+   },
+   {
+    "word": "granen",
+    "start": 1020.87,
+    "end": 1021.27
+   },
+   {
+    "word": "samma",
+    "start": 1021.27,
+    "end": 1021.53
+   },
+   {
+    "word": "dag",
+    "start": 1021.53,
+    "end": 1021.73
+   },
+   {
+    "word": "liksom.",
+    "start": 1021.73,
+    "end": 1022.29
+   },
+   {
+    "word": "Så",
+    "start": 1022.29,
+    "end": 1022.34
+   },
+   {
+    "word": "bara,",
+    "start": 1022.34,
+    "end": 1022.67
+   },
+   {
+    "word": "okej.",
+    "start": 1022.67,
+    "end": 1025.29
+   },
+   {
+    "word": "Alltså",
+    "start": 1025.29,
+    "end": 1025.61
+   },
+   {
+    "word": "det",
+    "start": 1025.61,
+    "end": 1025.75
+   },
+   {
+    "word": "är",
+    "start": 1025.75,
+    "end": 1026.05
+   },
+   {
+    "word": "jättesynd.",
+    "start": 1026.05,
+    "end": 1027.05
+   },
+   {
+    "word": "Fattar",
+    "start": 1027.05,
+    "end": 1027.37
+   },
+   {
+    "word": "du",
+    "start": 1027.37,
+    "end": 1027.51
+   },
+   {
+    "word": "om",
+    "start": 1027.51,
+    "end": 1027.56
+   },
+   {
+    "word": "det",
+    "start": 1027.56,
+    "end": 1027.61
+   },
+   {
+    "word": "var",
+    "start": 1027.61,
+    "end": 1027.66
+   },
+   {
+    "word": "någon",
+    "start": 1027.66,
+    "end": 1027.75
+   },
+   {
+    "word": "akut",
+    "start": 1027.75,
+    "end": 1028.03
+   },
+   {
+    "word": "grej",
+    "start": 1028.03,
+    "end": 1028.17
+   },
+   {
+    "word": "och",
+    "start": 1028.17,
+    "end": 1028.22
+   },
+   {
+    "word": "du",
+    "start": 1028.22,
+    "end": 1028.33
+   },
+   {
+    "word": "inte",
+    "start": 1028.33,
+    "end": 1028.38
+   },
+   {
+    "word": "kom",
+    "start": 1028.38,
+    "end": 1028.49
+   },
+   {
+    "word": "iväg?",
+    "start": 1028.49,
+    "end": 1028.89
+   },
+   {
+    "word": "Då",
+    "start": 1028.89,
+    "end": 1028.94
+   },
+   {
+    "word": "blev",
+    "start": 1028.94,
+    "end": 1029.03
+   },
+   {
+    "word": "det",
+    "start": 1029.03,
+    "end": 1029.11
+   },
+   {
+    "word": "inga",
+    "start": 1029.11,
+    "end": 1029.21
+   },
+   {
+    "word": "julklappar.",
+    "start": 1029.21,
+    "end": 1029.95
+   },
+   {
+    "word": "Men",
+    "start": 1029.95,
+    "end": 1030.03
+   },
+   {
+    "word": "du",
+    "start": 1030.03,
+    "end": 1030.15
+   },
+   {
+    "word": "kom",
+    "start": 1030.15,
+    "end": 1030.27
+   },
+   {
+    "word": "iväg.",
+    "start": 1030.27,
+    "end": 1030.53
+   },
+   {
+    "word": "Ja,",
+    "start": 1031.09,
+    "end": 1031.61
+   }
+  ],
+  "size": 60,
+  "y": 1380,
+  "max_words": 3,
+  "max_chars": 16
+ },
+ "srt": true
+}

@@ -1,0 +1,691 @@
+{
+ "name": "avsnitt6_06_gymkompisen",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "video": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/synkatklipp_avsnitt6.mp4",
+  "duration": 3103.767
+ },
+ "audio": {
+  "path": "C:/Users/aront/Videos/3vligt_avsnitt6/3vligt_avsnitt6_mixdown.mp3",
+  "duration": 2893.19
+ },
+ "video_offset": -8.234,
+ "segments": [
+  {
+   "in": 445.92,
+   "out": 451.76,
+   "scale": 2.0,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 2x"
+  },
+  {
+   "in": 451.76,
+   "out": 456.74,
+   "scale": 1.5,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 1.5x"
+  },
+  {
+   "in": 456.74,
+   "out": 460.73,
+   "scale": 2.0,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 2x"
+  },
+  {
+   "in": 460.98,
+   "out": 464.46,
+   "scale": 2.0,
+   "focus": [
+    567,
+    815
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "M 2x"
+  },
+  {
+   "in": 464.46,
+   "out": 469.88,
+   "scale": 2.0,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 2x"
+  },
+  {
+   "in": 469.88,
+   "out": 472.16,
+   "scale": 1.5,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 1.5x"
+  },
+  {
+   "in": 472.5,
+   "out": 473.32,
+   "scale": 2.0,
+   "focus": [
+    939,
+    756
+   ],
+   "target": [
+    540,
+    760
+   ],
+   "video_offset": -8.234,
+   "label": "H 2x"
+  }
+ ],
+ "captions": {
+  "words": [
+   {
+    "word": "om",
+    "start": 445.02,
+    "end": 445.12
+   },
+   {
+    "word": "han",
+    "start": 445.12,
+    "end": 445.28
+   },
+   {
+    "word": "vill",
+    "start": 445.28,
+    "end": 445.4
+   },
+   {
+    "word": "träna",
+    "start": 445.4,
+    "end": 445.62
+   },
+   {
+    "word": "med",
+    "start": 445.62,
+    "end": 445.76
+   },
+   {
+    "word": "mig?",
+    "start": 445.76,
+    "end": 445.94
+   },
+   {
+    "word": "Helt",
+    "start": 445.94,
+    "end": 446.22
+   },
+   {
+    "word": "ärligt,",
+    "start": 446.22,
+    "end": 446.62
+   },
+   {
+    "word": "det",
+    "start": 446.62,
+    "end": 446.67
+   },
+   {
+    "word": "var",
+    "start": 446.67,
+    "end": 447.06
+   },
+   {
+    "word": "en",
+    "start": 447.06,
+    "end": 447.12
+   },
+   {
+    "word": "sån",
+    "start": 447.12,
+    "end": 447.24
+   },
+   {
+    "word": "kille,",
+    "start": 447.24,
+    "end": 447.52
+   },
+   {
+    "word": "asså...",
+    "start": 447.52,
+    "end": 448.12
+   },
+   {
+    "word": "Han",
+    "start": 448.12,
+    "end": 448.17
+   },
+   {
+    "word": "hade...",
+    "start": 448.17,
+    "end": 448.58
+   },
+   {
+    "word": "Jag",
+    "start": 448.58,
+    "end": 448.7
+   },
+   {
+    "word": "är",
+    "start": 448.7,
+    "end": 448.78
+   },
+   {
+    "word": "somalier,",
+    "start": 448.78,
+    "end": 449.32
+   },
+   {
+    "word": "Dennis",
+    "start": 449.58,
+    "end": 450.12
+   },
+   {
+    "word": "är",
+    "start": 450.12,
+    "end": 450.48
+   },
+   {
+    "word": "svensk,",
+    "start": 450.48,
+    "end": 450.92
+   },
+   {
+    "word": "engelsk.",
+    "start": 450.92,
+    "end": 451.62
+   },
+   {
+    "word": "Ah",
+    "start": 451.62,
+    "end": 451.76
+   },
+   {
+    "word": "tack.",
+    "start": 451.76,
+    "end": 452.0
+   },
+   {
+    "word": "Jag",
+    "start": 452.0,
+    "end": 452.22
+   },
+   {
+    "word": "vet",
+    "start": 452.22,
+    "end": 452.5
+   },
+   {
+    "word": "ju",
+    "start": 452.5,
+    "end": 452.58
+   },
+   {
+    "word": "vilken",
+    "start": 452.58,
+    "end": 452.92
+   },
+   {
+    "word": "typ",
+    "start": 452.92,
+    "end": 453.08
+   },
+   {
+    "word": "av",
+    "start": 453.08,
+    "end": 453.26
+   },
+   {
+    "word": "kropp",
+    "start": 453.26,
+    "end": 453.42
+   },
+   {
+    "word": "jag",
+    "start": 453.42,
+    "end": 453.48
+   },
+   {
+    "word": "kan",
+    "start": 453.48,
+    "end": 453.66
+   },
+   {
+    "word": "få.",
+    "start": 453.66,
+    "end": 454.16
+   },
+   {
+    "word": "För",
+    "start": 454.16,
+    "end": 454.34
+   },
+   {
+    "word": "den",
+    "start": 454.34,
+    "end": 454.4
+   },
+   {
+    "word": "här",
+    "start": 454.4,
+    "end": 454.5
+   },
+   {
+    "word": "somaliska",
+    "start": 454.5,
+    "end": 455.14
+   },
+   {
+    "word": "bygden",
+    "start": 455.14,
+    "end": 455.4
+   },
+   {
+    "word": "han",
+    "start": 455.4,
+    "end": 455.54
+   },
+   {
+    "word": "har,",
+    "start": 455.54,
+    "end": 455.96
+   },
+   {
+    "word": "det",
+    "start": 455.96,
+    "end": 456.01
+   },
+   {
+    "word": "är",
+    "start": 456.01,
+    "end": 456.06
+   },
+   {
+    "word": "den",
+    "start": 456.06,
+    "end": 456.14
+   },
+   {
+    "word": "kroppen",
+    "start": 456.14,
+    "end": 456.32
+   },
+   {
+    "word": "jag",
+    "start": 456.32,
+    "end": 456.38
+   },
+   {
+    "word": "vill",
+    "start": 456.38,
+    "end": 456.5
+   },
+   {
+    "word": "ha.",
+    "start": 456.5,
+    "end": 456.61
+   },
+   {
+    "word": "Okej.",
+    "start": 456.74,
+    "end": 457.34
+   },
+   {
+    "word": "Jag",
+    "start": 457.34,
+    "end": 457.39
+   },
+   {
+    "word": "vill",
+    "start": 457.39,
+    "end": 457.5
+   },
+   {
+    "word": "ha",
+    "start": 457.5,
+    "end": 457.64
+   },
+   {
+    "word": "exakt",
+    "start": 457.64,
+    "end": 458.02
+   },
+   {
+    "word": "samma",
+    "start": 458.02,
+    "end": 458.18
+   },
+   {
+    "word": "träningsschema,",
+    "start": 458.18,
+    "end": 458.88
+   },
+   {
+    "word": "exakt",
+    "start": 458.88,
+    "end": 459.16
+   },
+   {
+    "word": "samma",
+    "start": 459.16,
+    "end": 459.32
+   },
+   {
+    "word": "kostschema,",
+    "start": 459.32,
+    "end": 459.78
+   },
+   {
+    "word": "tills",
+    "start": 459.99,
+    "end": 460.06
+   },
+   {
+    "word": "jag",
+    "start": 460.06,
+    "end": 460.14
+   },
+   {
+    "word": "ser",
+    "start": 460.14,
+    "end": 460.26
+   },
+   {
+    "word": "ut",
+    "start": 460.26,
+    "end": 460.32
+   },
+   {
+    "word": "som",
+    "start": 460.32,
+    "end": 460.44
+   },
+   {
+    "word": "honom.",
+    "start": 460.44,
+    "end": 460.61
+   },
+   {
+    "word": "Okej,",
+    "start": 461.1,
+    "end": 461.42
+   },
+   {
+    "word": "så",
+    "start": 461.42,
+    "end": 461.54
+   },
+   {
+    "word": "han",
+    "start": 461.54,
+    "end": 461.68
+   },
+   {
+    "word": "hjälper",
+    "start": 461.68,
+    "end": 461.92
+   },
+   {
+    "word": "dig",
+    "start": 461.92,
+    "end": 462.02
+   },
+   {
+    "word": "nu?",
+    "start": 462.02,
+    "end": 462.18
+   },
+   {
+    "word": "Med",
+    "start": 462.46,
+    "end": 462.56
+   },
+   {
+    "word": "allt.",
+    "start": 462.56,
+    "end": 462.66
+   },
+   {
+    "word": "Och",
+    "start": 462.91,
+    "end": 463.16
+   },
+   {
+    "word": "hur",
+    "start": 463.16,
+    "end": 463.21
+   },
+   {
+    "word": "länge",
+    "start": 463.21,
+    "end": 463.42
+   },
+   {
+    "word": "har",
+    "start": 463.42,
+    "end": 463.52
+   },
+   {
+    "word": "du",
+    "start": 463.52,
+    "end": 463.6
+   },
+   {
+    "word": "tränat?",
+    "start": 463.6,
+    "end": 463.88
+   },
+   {
+    "word": "Två",
+    "start": 464.26,
+    "end": 464.46
+   },
+   {
+    "word": "gånger",
+    "start": 464.46,
+    "end": 464.6
+   },
+   {
+    "word": "bara.",
+    "start": 464.6,
+    "end": 464.81
+   },
+   {
+    "word": "Nej",
+    "start": 465.38,
+    "end": 466.3
+   },
+   {
+    "word": "det",
+    "start": 466.3,
+    "end": 466.5
+   },
+   {
+    "word": "är",
+    "start": 466.5,
+    "end": 466.62
+   },
+   {
+    "word": "ju",
+    "start": 466.62,
+    "end": 466.74
+   },
+   {
+    "word": "en",
+    "start": 466.74,
+    "end": 466.79
+   },
+   {
+    "word": "början.",
+    "start": 466.79,
+    "end": 467.48
+   },
+   {
+    "word": "Det",
+    "start": 467.48,
+    "end": 467.53
+   },
+   {
+    "word": "är",
+    "start": 467.53,
+    "end": 467.58
+   },
+   {
+    "word": "en",
+    "start": 467.58,
+    "end": 468.94
+   },
+   {
+    "word": "jättebra",
+    "start": 468.94,
+    "end": 469.18
+   },
+   {
+    "word": "början",
+    "start": 469.18,
+    "end": 469.38
+   },
+   {
+    "word": "för",
+    "start": 469.38,
+    "end": 469.52
+   },
+   {
+    "word": "mig.",
+    "start": 469.52,
+    "end": 469.68
+   },
+   {
+    "word": "För",
+    "start": 469.88,
+    "end": 470.0
+   },
+   {
+    "word": "alltså",
+    "start": 470.0,
+    "end": 470.1
+   },
+   {
+    "word": "när",
+    "start": 470.1,
+    "end": 470.22
+   },
+   {
+    "word": "jag",
+    "start": 470.22,
+    "end": 470.4
+   },
+   {
+    "word": "väl",
+    "start": 470.4,
+    "end": 470.52
+   },
+   {
+    "word": "börjar,",
+    "start": 470.52,
+    "end": 471.08
+   },
+   {
+    "word": "jag",
+    "start": 471.08,
+    "end": 471.13
+   },
+   {
+    "word": "kör.",
+    "start": 471.13,
+    "end": 471.42
+   },
+   {
+    "word": "Okej",
+    "start": 472.62,
+    "end": 472.8
+   },
+   {
+    "word": "tre",
+    "start": 472.8,
+    "end": 472.94
+   },
+   {
+    "word": "gånger",
+    "start": 472.94,
+    "end": 473.06
+   },
+   {
+    "word": "faktiskt.",
+    "start": 473.06,
+    "end": 473.34
+   },
+   {
+    "word": "Det",
+    "start": 473.34,
+    "end": 473.66
+   },
+   {
+    "word": "är",
+    "start": 473.66,
+    "end": 473.78
+   },
+   {
+    "word": "locking",
+    "start": 473.78,
+    "end": 474.06
+   },
+   {
+    "word": "season",
+    "start": 474.06,
+    "end": 474.22
+   },
+   {
+    "word": "nu.",
+    "start": 474.22,
+    "end": 474.46
+   }
+  ],
+  "size": 60,
+  "y": 1380,
+  "max_words": 3,
+  "max_chars": 16
+ },
+ "srt": true
+}

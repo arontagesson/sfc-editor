@@ -17,6 +17,10 @@
 - Format: vertikalt 1080×1920 (TikTok, Reels, Shorts).
 
 ## Läget just nu
-Fas 0, kompatibilitetstestet i `compat-test/`, avgör vilka FCPXML-funktioner Resolve tar emot
-(keyframes, titlar, captions, övergångar, volym-keyframes). Bygg inte på en funktion
-som testet inte har bekräftat.
+Bekräftat i Resolve 19 (test 1): statisk zoom/position, keyframes (tider i KÄLLTID), Basic Title -> Text-klipp
+(position via adjust-transform, flerfärgad text), övergångar, ljudklipp med volym-keyframes.
+Fungerar INTE: FCPXML `<caption>`, Position-param på titlar, markörer i FCPXML.
+SRT: Resolve lägger första raden där filen släpps, så SRT:er börjar med en 1-bildsrute-"." på 0:00.
+
+Poddklipp: `sfc/podclip.py` (synk, pauser, talare -> punch-in, undertexter) -> `sfc/fcpxml.py`,
+förhandsvisa med `sfc/preview.py`. Exempel: `projects/3vligt_avsnitt6/clips.py`.

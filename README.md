@@ -47,8 +47,8 @@ råfil ──► analys ──► edit.json ──► exporter ──► .fcpxml
 
 | Fas | Innehåll | Status |
 |---|---|---|
-| 0 | Kompatibilitetstest: vad överlever FCPXML-importen i Resolve gratis? | **Väntar på testresultat**, se [`compat-test/`](compat-test/) |
-| 1 | Analys + `edit.json` + exporter (klipp, undertexter, SFX, markörer) | Ej påbörjad |
+| 0 | Kompatibilitetstest: vad överlever FCPXML-importen i Resolve gratis? | Test 1 klart (zoom, keyframes, titlar, ljud OK; FCPXML-captions och markörer nej). Test 2 väntar, se [`compat-test/`](compat-test/) |
+| 1 | Analys + `edit.json` + exporter (klipp, undertexter, punch-ins mot talaren) | **Klar för poddklipp**: `sfc/transcribe.py`, `sfc/podclip.py`, `sfc/fcpxml.py`, `sfc/preview.py`. Första leveransen: `projects/3vligt_avsnitt6/` |
 | 2 | Animerade zoomar mot ansiktet, rubriker, b-roll, musik med ducking | Ej påbörjad |
 | 3 | Lärande: jämför Arons färdiga tidslinje med Claudes förslag och uppdatera stilguiden | Ej påbörjad |
 
