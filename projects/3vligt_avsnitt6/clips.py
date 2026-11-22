@@ -3,7 +3,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 from sfc.podclip import build_clip
 from sfc import fcpxml
 from sfc.preview import render
-WORK = os.environ.get("SFC_WORK", "/home/user/work/avsnitt6")  # mixdown.mp3, video.mp4, words_spk.json, offsets.json, models/; OUT = os.path.join(WORK, "out")
+# SFC_WORK: folder with mixdown.mp3, video.mp4, words_spk.json, offsets.json, models/
+WORK = os.environ.get("SFC_WORK", "/home/user/work/avsnitt6")
+OUT = os.path.join(WORK, "out")
 PC = "C:/Users/aront/Videos/3vligt_avsnitt6/"
 SPECS = [
  dict(name="avsnitt6_01_ankorna", ranges=[(1444.87, 1506.45), (1531.43, 1533.30)]),
