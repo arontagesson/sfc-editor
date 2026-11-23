@@ -7,6 +7,9 @@ from sfc.preview import render
 WORK = os.environ.get("SFC_WORK", "/home/user/work/avsnitt6")
 OUT = os.path.join(WORK, "out")
 PC = "C:/Users/aront/Videos/3vligt_avsnitt6/"
+# namn som behåller stor bokstav i undertexterna (allt annat blir små bokstäver)
+NAMES = ["Ben", "Bosse", "Andersson", "Dennis", "Denko", "Momo", "Caroline", "Anis", "Karl", "Stockholm", "Vasastan",
+         "Östermalm", "Djurgården", "NK", "Lund", "Subbee", "Pantamera", "Musikhjälpen", "CS", "Black", "Friday"]
 SPECS = [
  dict(name="avsnitt6_01_ankorna", ranges=[(1444.87, 1506.45), (1531.43, 1533.30)]),
  dict(name="avsnitt6_02_kungen", ranges=[(2655.32, 2661.76), (2662.17, 2735.05)], range_offsets=[144.583, 197.921],
@@ -20,6 +23,7 @@ SPECS = [
 only = sys.argv[1:]
 for spec in SPECS:
     if only and not any(o in spec["name"] for o in only): continue
+    spec.setdefault("names", NAMES)
     job, info = build_clip(WORK, spec, PC + "synkatklipp_avsnitt6.mp4", PC + "3vligt_avsnitt6_mixdown.mp3", OUT)
     xml, srt, st = fcpxml.build(job)
     base = os.path.join(OUT, spec["name"])

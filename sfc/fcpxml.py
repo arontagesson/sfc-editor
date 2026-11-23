@@ -55,6 +55,20 @@ def display_word(w):
     return re.sub(r"(?<![.])[,.;:]+$", "", w) if not w.endswith("...") else w.rstrip(".")
 
 
+def caption_case(text, mode, names=()):
+    """upper: ALLA VERSALER. lower: små bokstäver, utom namn (names) och förkortningar (CS, NK)."""
+    if mode == "upper": return text.upper()
+    if mode != "lower": return text
+    keep = {n.lower(): n for n in names}
+    out = []
+    for w in text.split(" "):
+        core = re.sub(r"[^\wÅÄÖåäö-]", "", w)
+        if core.lower() in keep: out.append(w.replace(core, keep[core.lower()]))
+        elif len(core) >= 2 and core.isupper(): out.append(w)          # CS, NK
+        else: out.append(w.lower())
+    return " ".join(out)
+
+
 def chunk_words(ws, max_words=3, max_chars=16, gap=0.35):
     """Caption lines: 1-3 words, <= max_chars, break after punctuation or a pause."""
     lines, cur = [], []
@@ -120,7 +134,8 @@ def build(job):
             s = max(1, fr(ln[0]["start"]) - lead); e = fr(ln[-1]["end"]) + hold   # frame 0 is the SRT anchor dot
             if i + 1 < len(lines): e = min(e, fr(lines[i + 1][0]["start"]) - lead)
             e = min(max(e, s + fr(0.2)), total)
-            if e > s: caps.append((s, e - s, " ".join(display_word(w["word"]) for w in ln)))
+            text = caption_case(" ".join(display_word(w["word"]) for w in ln), cj.get("case", "upper"), cj.get("names", []))
+            if e > s: caps.append((s, e - s, text))
 
     # ---- XML
     vid, aud = job["video"], job.get("audio")
@@ -139,7 +154,9 @@ def build(job):
     out += ['<library>', f'<event name={name}>', f'<project name={name}>',
             f'<sequence format="fmt" duration="{t(total)}" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">',
             '<spine>']
-    size, cy = (cj or {}).get("size", 60), (cj or {}).get("y", 1350)
+    cj = cj or {}
+    size, cy = cj.get("size", 60), cj.get("y", 1350)
+    font, face, stroke = cj.get("font", "Arial Black"), cj.get("face", "Regular"), cj.get("stroke", 4)
     cpos = f"0 {(H / 2 - cy) / H * 100:.3f}"
     ts_n = 0
     for k, s in enumerate(segs):
@@ -153,9 +170,10 @@ def build(job):
                 at = s["v_in"] + cs - s["offset"]
                 kids.append(
                     f'<title ref="basictitle" lane="1" offset="{t(at)}" name={quoteattr(text)} start="0s" duration="{t(cd)}">'
-                    f'<text><text-style ref="c{ts_n}">{escape(text.upper())}</text-style></text>'
-                    f'<text-style-def id="c{ts_n}"><text-style font="Arial Black" fontSize="{size}" fontFace="Regular" '
-                    f'fontColor="{hexcol("#FFFFFF")}" strokeColor="0 0 0 1" strokeWidth="4" alignment="center"/></text-style-def>'
+                    f'<text><text-style ref="c{ts_n}">{escape(text)}</text-style></text>'
+                    f'<text-style-def id="c{ts_n}"><text-style font={quoteattr(font)} fontSize="{size}" fontFace={quoteattr(face)} '
+                    f'fontColor="{hexcol("#FFFFFF")}" strokeColor="0 0 0 1" strokeWidth="{stroke}" shadowColor="0 0 0 0" '
+                    f'alignment="center"/></text-style-def>'
                     f'<adjust-transform position="{cpos}"/></title>')
         mute = '<adjust-volume amount="-96dB"/>' if has_audio else ""
         en = ' srcEnable="video"' if has_audio else ""

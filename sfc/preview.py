@@ -35,8 +35,13 @@ def render(job, srt, out, video, audio, w=540, h=960):
     open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
     cat = os.path.join(tmp, "cat.mp4")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", cat], check=True)
-    style = ("FontName=DejaVu Sans,Bold=1,FontSize=13,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,"
-             "BorderStyle=1,Outline=2,Shadow=0,Alignment=2,MarginV=48")
+    cj = job.get("captions", {})
+    font = cj.get("font", "DejaVu Sans")
+    size = cj.get("size", 60) * 1.45 / 1920 * 288          # Resolve Text size -> libass units (PlayResY 288)
+    outline = max(1.0, cj.get("stroke", 4) / 1920 * 288 * 0.9)
+    margin = (1920 - cj.get("y", 1350)) / 1920 * 288 - size * 0.45
+    style = (f"FontName={font},Bold=1,FontSize={size:.1f},PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,"
+             f"BorderStyle=1,Outline={outline:.1f},Shadow=0,Alignment=2,MarginV={margin:.0f}")
     srt_esc = srt.replace("\\", "/").replace(":", "\\:")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", cat, "-vf", f"subtitles='{srt_esc}':force_style='{style}'",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-c:a", "copy", out], check=True)

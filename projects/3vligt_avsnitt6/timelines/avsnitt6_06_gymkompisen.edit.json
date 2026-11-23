@@ -120,6 +120,14 @@
   }
  ],
  "captions": {
+  "font": "Montserrat",
+  "face": "Bold",
+  "size": 40,
+  "stroke": 16,
+  "y": 1273,
+  "case": "lower",
+  "max_words": 3,
+  "max_chars": 20,
   "words": [
    {
     "word": "om",
@@ -682,10 +690,29 @@
     "end": 474.46
    }
   ],
-  "size": 60,
-  "y": 1380,
-  "max_words": 3,
-  "max_chars": 16
+  "names": [
+   "Ben",
+   "Bosse",
+   "Andersson",
+   "Dennis",
+   "Denko",
+   "Momo",
+   "Caroline",
+   "Anis",
+   "Karl",
+   "Stockholm",
+   "Vasastan",
+   "Östermalm",
+   "Djurgården",
+   "NK",
+   "Lund",
+   "Subbee",
+   "Pantamera",
+   "Musikhjälpen",
+   "CS",
+   "Black",
+   "Friday"
+  ]
  },
  "srt": true
 }

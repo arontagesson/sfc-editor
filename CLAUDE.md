@@ -10,7 +10,9 @@
 ## Arons standardval
 - Klipp **aldrig** mitt i en replik. Bara vid ord- och meningsgränser. Ta bara bort tystnad,
   "eh", andetag, omtag och upprepningar. Tempo kommer från punch-ins och hook, inte från avbrutna repliker.
-- Undertexter är prio 1: välj ett tydligt format, 1–3 ord per rad, i synk med ordtiderna.
+- Undertexter är prio 1: 1–3 ord per rad, i synk med ordtiderna. Stil: Montserrat Bold, storlek 40,
+  vit med svart kant 16 ("outside only"), ingen skugga eller bakgrund, små bokstäver utom namn,
+  Transform Y -313 (`CAPTION_STYLE` i `sfc/podclip.py`).
 - Hook med riser, punch-ins och SFX från Arons eget bibliotek (variera, samma ljud högst två
   gånger per klipp). Hitta aldrig på eller generera ljud i riktiga klipp.
 - Inga inzoom-freezes om Aron inte ber om det.

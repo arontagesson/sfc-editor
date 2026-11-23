@@ -18,6 +18,9 @@ MIN_GAP, PAD = 0.45, 0.12          # cut silences longer than MIN_GAP, keep PAD 
 CLOSE, MEDIUM = 2.0, 1.5
 TARGET = [540, 760]                 # where the speaker's face lands (x, y) in the 1080x1920 frame
 MIN_SHOT, MAX_SHOT = 1.6, 6.5       # seconds
+# Arons undertextstil (Resolve Text-klipp): Montserrat Bold 40, svart kant 16, små bokstäver utom namn,
+# Transform Y -313 (= y 1273 px). "Outside only" på kanten och av-bockad skugga/bakgrund sätts i Resolve.
+CAPTION_STYLE = dict(font="Montserrat", face="Bold", size=40, stroke=16, y=1273, case="lower", max_words=3, max_chars=20)
 
 
 def read_audio(path, t0, dur, sr=SR_ENV):
@@ -191,8 +194,8 @@ def build_clip(work, spec, pc_video, pc_audio, out_dir, fps=60):
     job = dict(name=spec["name"], fps=fps, width=1080, height=1920,
                video=dict(path=pc_video, duration=3103.767), audio=dict(path=pc_audio, duration=2893.19),
                video_offset=merged[0]["video_offset"], segments=merged,
-               captions=dict(words=[dict(word=w["word"], start=w["start"], end=w["end"]) for w in words],
-                             size=spec.get("caption_size", 60), y=1380, max_words=3, max_chars=16), srt=True)
+               captions=dict(CAPTION_STYLE, words=[dict(word=w["word"], start=w["start"], end=w["end"]) for w in words],
+                             names=spec.get("names", []), **spec.get("caption", {})), srt=True)
     os.makedirs(out_dir, exist_ok=True)
     json.dump(job, open(os.path.join(out_dir, spec["name"] + ".edit.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return job, dict(sync=sync, pieces=pieces, shots=shots, faces=faces)
